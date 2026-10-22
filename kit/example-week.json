@@ -1,0 +1,8 @@
+{ "items": [
+  { "file": "post-mon", "format": "post", "layout": "list", "marker": "check", "tag": "Website tip", "title": "Customer website pe *sabse pehle* kya dhoondta hai?", "items": [ {"t": "Aap kya kaam karte ho"}, {"t": "Rate ya price range"}, {"t": "Location aur timings"}, {"t": "WhatsApp / call button"} ], "note": "Save karo, apni website pe check karna." },
+  { "file": "post-wed", "format": "post", "layout": "versus", "tag": "Sirf Instagram vs website", "title": "Dono chahiye. *Kaam alag hai.*", "items": [ {"label": "Instagram", "points": ["Kaam dikhane ke liye", "Purani posts mein info kho jaati hai"]}, {"label": "Website", "points": ["Rates, timing, location ek jagah", "Domain aapke naam"]} ] },
+  { "file": "post-fri", "format": "post", "layout": "hero", "visual": "browser", "tag": "Free homepage demo", "title": "Pehle apni website *dekho.* Phir decide karo.", "sub": "WhatsApp pe DEMO likho." },
+  { "file": "story-mon", "format": "story", "layout": "hero", "tag": "Quick poll", "title": "Aapki website *phone pe* jaldi khulti hai?", "sticker": "poll sticker yahan" },
+  { "file": "story-tue", "format": "story", "layout": "qa", "tag": "FAQ", "title": "Aap poochte ho, *hum batate hain.*", "items": [ {"q": "Domain kiske naam?", "a": "Aapke naam pe, actual cost pe."}, {"q": "Payment kab?", "a": "Free demo dekhne ke baad."} ] },
+  { "file": "story-wed", "format": "story", "layout": "hero", "visual": "search", "tag": "Customer ki nazar se", "title": "Customer search karta hai. *Use kya milta hai?*", "cta": "WhatsApp pe DEMO likho →" }
+] }
