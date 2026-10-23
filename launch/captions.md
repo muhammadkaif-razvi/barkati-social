@@ -1,103 +1,104 @@
 # BARKATI launch post captions
 
-Post 9 se 1 tak ulte order mein publish karo (Post 1 grid mein sabse upar dikhega).
+Published Sat 24 Oct 2026 via Buffer, post 9 first and post 1 last (Post 1 ends up top-left on the grid).
 
 ## Post 1 · Intro — launch/post-1-intro.png
 
-Local businesses ke liye fast websites. ⚡
+Fast, mobile-friendly websites for India's local businesses.
 
-Hum hain BARKATI. Aapke business ki aisi website jo phone pe jaldi khule, jisme enquiry form, WhatsApp button aur Google Maps ho, aur domain aapke naam pe ho.
+We're BARKATI. We build websites that open quickly on the phone, show your services, timings and location in one place, and send enquiries straight to your WhatsApp. The domain stays in your name.
 
-Follow karo, roz kaam ki website tips.
+Follow for practical website tips for business owners.
 
-#barkati #websitedesign #localbusiness #smallbusinessindia #businesswebsite #hyderabadbusiness #webdesigner #websitedevelopment
+#barkati #websitedesign #localbusiness #smallbusinessindia #businesswebsite #hyderabad
 
-## Post 2 · Demo pehle — launch/post-2-demo.png
+## Post 2 · Demo first — launch/post-2-demo.png
 
-Pehle demo. Phir payment.
+See it first. Decide later.
 
-Aapke business ka homepage hum pehle free mein bana ke dikhate hain. Pasand aaye, tab aage baat. Pasand na aaye, toh koi charge nahi.
+Share your business details and we'll design your homepage as a free demo. Pasand aaye toh baaki website banate hain. If not, there's no charge.
 
-Comment mein "DEMO" likho ya WhatsApp karo 👇
-barkati.in
+Comment "DEMO" or message us on WhatsApp (link in bio).
 
-#barkati #freedemo #websitedesign #localbusiness #smallbusinessindia #hyderabad
+#barkati #websitedesign #localbusiness #smallbusinessindia #freedemo
 
 ## Post 3 · Plans — launch/post-3-plans.png
 
-Seedha price. Pehle demo.
+Simple, fixed pricing.
 
-Starter ₹2,999 · 1 page · 3 working days
-Business ₹5,999 · 5 pages tak · 7 working days
-Growth ₹17,999 · 12 pages + admin panel · 15 working days (+ ₹499/month)
+Starter ₹2,999 — 1 page, 3 working days
+Business ₹5,999 — up to 5 pages, 7 working days
+Growth ₹17,999 — up to 12 pages + admin panel, 15 working days (+ ₹499/month server & care)
 
-Domain actual cost pe, aapke naam. Launch ke baad 30 din chhote changes free.
+Domain at actual cost, in your name. Small changes free for 30 days after launch. Every plan starts with a free homepage demo.
 
-Kisi business owner dost ko bhejo 🤝
+#barkati #websitepricing #smallbusinessindia #localbusiness #websitedesign
 
-#barkati #websiteprice #smallbusinessindia #localbusiness #websitedesign
+## Post 4 · What's included — launch/post-4-included.png
 
-## Post 4 · Kya milta hai — launch/post-4-included.png
+What every BARKATI website includes:
+— Mobile-first design that loads quickly
+— Enquiry form, click-to-call and WhatsApp buttons
+— Google Maps location
+— SEO basics: title, description, sitemap
+— HTTPS
+— Domain in your name, code handed over
 
-Har BARKATI website mein ye milta hai:
-Mobile-first design · jaldi load · enquiry form · WhatsApp + call button · Google Maps · SEO basics · HTTPS · domain aapke naam.
-
-Save karo, website banwate waqt checklist ki tarah kaam aayega.
+Save this as a checklist for any website you get built.
 
 #barkati #businesswebsite #localbusiness #webdesign #smallbusinessindia
 
 ## Post 5 · Process — launch/post-5-process.png
 
-WhatsApp se live website tak, 4 step:
-1. WhatsApp pe details bhejo
-2. Free homepage demo dekho
-3. Go-ahead do + baaki content bhejo
-4. Website live, domain aapke naam
+From WhatsApp to a live website, in 4 steps:
+1. Share your details on WhatsApp
+2. Review your free homepage demo
+3. Approve and send the remaining content
+4. Go live — with the domain in your name
 
-WhatsApp pe "DEMO" likho, shuru karte hain.
+Ready to start? Message "DEMO".
 
 #barkati #websitedevelopment #localbusiness #smallbusinessindia
 
 ## Post 6 · Ownership — launch/post-6-ownership.png
 
-Domain aur code, dono aapke naam.
+Your domain. Your code. Your website.
 
-Aapki website aapki property honi chahiye. Domain aapke naam pe register hota hai, actual cost pe, aur website ka code bhi aapko handover.
+We register your domain in your name at actual cost and hand over the website code. Kal ko kahin aur jaana ho, toh sab kuch aapke saath jaata hai.
 
 #barkati #websiteownership #localbusiness #smallbusinessindia #businesswebsite
 
 ## Post 7 · Founding offer — launch/post-7-founding.png
 
-Founding offer: pehle 10 clients ko Care plan 6 mahine free.
+Founding offer: our first 10 clients get 6 months of the Care plan free.
 
-Care plan = hosting, SSL, backup, uptime check aur mahine ke 2 chhote changes (normally ₹199/month).
+The Care plan covers hosting, SSL, backups, uptime checks and 2 small changes a month.
 
-WhatsApp pe "DEMO" likho 👇
-barkati.in
+Start with a free homepage demo — message "DEMO" on WhatsApp.
 
 #barkati #websitedesign #localbusiness #smallbusinessindia #hyderabad
 
 ## Post 8 · 10-second test — launch/post-8-test.png
 
-Apni website phone pe kholo. 10 second mein ye 4 cheezein mili?
-☐ Aap kya kaam karte ho
-☐ Location
-☐ Timings
-☐ WhatsApp / call button
+The 10-second test: open your website on your phone. Can a customer find these in 10 seconds?
+☐ What you do
+☐ Where you are
+☐ When you're open
+☐ How to contact you
 
-Koi box khaali raha? Comment mein batao, free mein bata denge kya theek karna hai.
+Koi box khaali raha? Comment below and we'll tell you what to fix — free.
 
 #barkati #websitetips #localbusiness #smallbusinessindia
 
-## Post 9 · 4 sawaal — launch/post-9-questions.png
+## Post 9 · 4 questions — launch/post-9-questions.png
 
-Website kisi se bhi banwao, pehle ye 4 sawaal poochho:
-1. Domain kiske naam pe hoga?
-2. Phone pe kitni jaldi khulegi?
-3. Enquiry / WhatsApp button hoga?
-4. Baad mein rate ya photo kaise badlega?
+Getting a website made? Ask any agency these 4 questions first:
+1. Whose name will the domain be in?
+2. How fast will it open on a phone?
+3. Will it have an enquiry / WhatsApp button?
+4. How will I update prices or photos later?
 
-Save karo, kaam aayega. 📌
+Save this for later.
 
 #barkati #websitetips #businesswebsite #localbusiness #smallbusinessindia
 
