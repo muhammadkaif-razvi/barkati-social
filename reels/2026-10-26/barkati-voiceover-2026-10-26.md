@@ -2,7 +2,7 @@
 
 Voice: Raza's own clone “Kaif razvi Hyderabadi” (uevHnnJ2Kce23meEyLfy), eleven_multilingual_v2, 1 take per reel. Enhancement (kit/voice-enhance.sh): yes, −14.5 / −14.4 LUFS. Credits used today: 382 + 480 = 862. No music (sound effects + voice only).
 
-Buffer: BUFFER_STATUS
+Buffer: scheduled — Instagram @barkati_0001 + Facebook "Barkati", reel 1 at 13:00 IST and reel 2 at 20:00 IST on 26 Oct 2026 (files: reels/2026-10-26/ in barkati-social, commit 51c520e).
 
 ## Reel 1 · 13:00 IST · “Time nahi” — website ko aapka din nahi, jaankari chahiye (objection O5 “abhi time nahi hai”)
 Archetype: owner's day / to-do (“aaj likho, aaj photo lo”) as objection answer · Design: bold / poster / swipe, decor lines, bgx split · Length 27.6s
