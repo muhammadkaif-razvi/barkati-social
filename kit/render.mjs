@@ -66,7 +66,7 @@ const [specPath, outDir = 'out'] = process.argv.slice(2);
 if (!specPath) { console.error('usage: node kit/render.mjs spec.json outdir'); process.exit(1); }
 const spec = JSON.parse(readFileSync(specPath, 'utf8'));
 mkdirSync(outDir, { recursive: true });
-const exe = ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium/chrome-linux/chrome'].find(existsSync);
+const exe = ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium/chrome-linux/chrome', '/opt/pw-browsers/chromium'].find(existsSync);
 const app = await chromium.launch(exe ? { executablePath: exe } : {});
 let bad = 0;
 for (const it of spec.items) {

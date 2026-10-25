@@ -1,0 +1,127 @@
+{
+ "items": [
+  {
+   "file": "post-mon",
+   "format": "post",
+   "layout": "list",
+   "marker": "check",
+   "tag": "Website tip",
+   "title": "4 photo tips for your *website*",
+   "items": [
+    {
+     "t": "Use real photos of your shop or work",
+     "d": "Not stock images from the internet."
+    },
+    {
+     "t": "Shoot in daylight, phone held straight",
+     "d": "Clean the lens first."
+    },
+    {
+     "t": "One line under each photo",
+     "d": "What it is, and where."
+    },
+    {
+     "t": "Keep image files small",
+     "d": "Big files make pages slow on the phone."
+    }
+   ],
+   "note": "Save this for your next photo day."
+  },
+  {
+   "file": "post-wed",
+   "format": "post",
+   "layout": "list",
+   "marker": "number",
+   "tag": "Common question",
+   "title": "\"My customers are *all local.*\"",
+   "items": [
+    {
+     "t": "True, most customers live nearby",
+     "d": "That is the strength of a local business."
+    },
+    {
+     "t": "Nearby people check on the phone first",
+     "d": "Timings, location and rates, before they visit."
+    },
+    {
+     "t": "One check for this week",
+     "d": "Ask 5 customers how they found you."
+    }
+   ],
+   "note": "Pasand aaye toh baat karte hain."
+  },
+  {
+   "file": "post-fri",
+   "format": "post",
+   "layout": "hero",
+   "visual": "browser",
+   "mock": "Fresh sweets and snacks, made daily",
+   "tag": "Sample design",
+   "title": "A homepage for a *sweet shop*",
+   "sub": "Timings, location and a WhatsApp button on the first screen."
+  },
+  {
+   "file": "story-mon",
+   "format": "story",
+   "layout": "hero",
+   "tag": "Quick poll",
+   "title": "Do customers ask your *timings* on WhatsApp?",
+   "sticker": "poll sticker here"
+  },
+  {
+   "file": "story-tue",
+   "format": "story",
+   "layout": "qa",
+   "tag": "FAQ",
+   "title": "Questions owners *ask us*",
+   "items": [
+    {
+     "q": "Can I change things after launch?",
+     "a": "Small changes are free for 30 days."
+    },
+    {
+     "q": "Do I get the website code?",
+     "a": "Yes, the code is handed over to you."
+    },
+    {
+     "q": "Do we need to meet in person?",
+     "a": "No. WhatsApp, video call and a demo link."
+    }
+   ]
+  },
+  {
+   "file": "story-wed",
+   "format": "story",
+   "layout": "versus",
+   "tag": "Myth vs fact",
+   "title": "Websites are *only for big brands?*",
+   "items": [
+    {
+     "label": "Myth",
+     "points": [
+      "Only big companies need a website",
+      "Not for small shops"
+     ]
+    },
+    {
+     "label": "Fact",
+     "points": [
+      "A simple site helps a local shop",
+      "Customers find rates, timings, location"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "story-thu",
+   "format": "story",
+   "layout": "hero",
+   "visual": "browser",
+   "mock": "Your homepage, ready to review",
+   "tag": "Free demo, before any payment",
+   "title": "See your homepage *first.*",
+   "cta": "WhatsApp us: DEMO →",
+   "titleSize": 108
+  }
+ ]
+}
