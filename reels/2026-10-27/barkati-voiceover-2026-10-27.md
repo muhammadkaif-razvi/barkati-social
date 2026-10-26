@@ -2,7 +2,7 @@
 
 Voice: Raza's own clone “Kaif razvi Hyderabadi” (uevHnnJ2Kce23meEyLfy), eleven_multilingual_v2, 1 take per reel. Enhancement (kit/voice-enhance.sh): yes, −14.4 / −14.6 LUFS. Credits used today: 373 + 458 = 831. No music (sound effects + voice only).
 
-Buffer: BUFFER_STATUS
+Buffer: scheduled — Instagram @barkati_0001 + Facebook "Barkati", reel 1 at 13:00 IST and reel 2 at 20:00 IST on 27 Oct 2026 (files: reels/2026-10-27/ in barkati-social, commit 63878b1).
 
 ## Reel 1 · 13:00 IST · Paas ka customer bhi phone pe dekhta hai (objection O4 “mera business local hai, log online nahi dhoondte”)
 Archetype: quiz/poll as respectful objection answer · Design: bold / center / zoom, decor shapes, bgx dots · Length 28.4s
