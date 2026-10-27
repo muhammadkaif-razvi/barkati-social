@@ -2,7 +2,7 @@
 
 Voice: Raza's own clone “Kaif razvi Hyderabadi” (uevHnnJ2Kce23meEyLfy), eleven_multilingual_v2, 1 take per reel. Enhancement (kit/voice-enhance.sh): yes. Final loudness: reel 1 −14.0 LUFS, reel 2 −14.1 LUFS. Credits used today: 289 + 494 = 783. No music (sound effects + voice only).
 
-Buffer: see status line under each reel.
+Buffer: scheduled — both reels on IG + FB (13:00 and 20:00 IST, 28 Oct 2026; files reels/2026-10-28/ in barkati-social, commit 7088621).
 
 ## Reel 1 · 13:00 IST · Information — customer 3 tab kholke compare karta hai; pehli screen pe jawab (rate, photos, WhatsApp)
 Angle: Information (how customers search/decide) · Archetype: data-led explainer · Viral structure: none (library empty) · Design: editorial / poster / slide, decor brackets, bgx paper · Length 17.8s
@@ -21,7 +21,7 @@ Hook options (Curiosity / Pattern / Identity / Clarity / Compound = /25):
 | 10.7–14.2s | 4 | Tabs: “Doosra Showroom” → “Your Business” first screen (Rate list · asli photos, Khula 10–9 · Map · Call, WhatsApp button), toast “BARKATI mein yahi banate hain”; text “Pehli screen pe 3 jawab” | BARKATI mein pehli screen pe rate, photos, WhatsApp. |
 | 14.2–17.8s | 5 | CTA: comment mockup typing “DEMO” + note “Homepage demo free 🎁 link DM mein aayega”, text “Apna homepage pehle dekho”, BARKATI logo | Demo free hai. DEMO comment karo. |
 
-Buffer: SEE_B1
+Buffer: scheduled — Instagram @barkati_0001 + Facebook "Barkati", Wed 28 Oct 2026 13:00 IST (commit 7088621)
 
 ## Reel 2 · 20:00 IST · New project / sample work — BARKATI sample design: sweet shop homepage (pehle vs baad)
 Angle: New project / sample work showcase (labelled “Sample design”) · Archetype: pehle vs baad · Viral structure: none (library empty) · Design: bold / stack / zoom, decor lines, bgx mesh · Length 32.2s
@@ -43,4 +43,4 @@ Hook options:
 | 23.1–28.6s | 7 | Offer card (Khushkhabri): “Homepage demo free — payment se pehle dekho · pehle 10 clients ko 6 mahine Care plan free”, share pill | Demo payment se pehle, free. Aur pehle das clients ko, chhe mahine Care plan free. |
 | 28.6–32.2s | 8 | CTA: comment mockup “DEMO” + note “DEMO likho 👆 free demo ka link DM mein”, text “Apna homepage pehle dekho”, BARKATI logo | Apna homepage pehle dekhna hai? DEMO likho. |
 
-Buffer: SEE_B2
+Buffer: scheduled — Instagram @barkati_0001 + Facebook "Barkati", Wed 28 Oct 2026 20:00 IST (commit 7088621)
