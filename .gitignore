@@ -1,2 +1,7 @@
 node_modules/
 kit/_tmp_*.html
+reelkit/node_modules/
+reelkit/*.woff2
+reelkit/pv/
+reelkit/barkati-logo-tight.png
+reelkit/package*.json
