@@ -53,3 +53,11 @@ In the "dark" style illustrations sit on white tiles automatically.
 | Ownership (domain, code) | illus: key + lock + website | pop |
 | CTA | comment "DEMO" + logo | typing, send, ding |
 Max ~12 words on screen per scene; preview every scene and fix overlaps before rendering. Never faces, never a real business name.
+
+## Retention rules + Instagram safe zones (from the 20–27 Oct numbers: avg watch ≈ 4.7 s)
+- **Scene 1 is instant**: its text is fully on screen by ~0.5 s (built in; set `"slowHook": true` only if you really want the slow reveal). Voice starts at once. The first frame must already read as the hook — it is also the cover/thumbnail.
+- **Short and fast**: reel #1 15–22 s, reel #2 25–35 s; each scene 2.5–4 s; something new every ~1.5 s. Cut any scene that only repeats the previous one.
+- **Fill the frame**: mockups/cards should cover ~55–70% of the height. Use `"visScale": 1.1–1.2` on small cards (plan, stat, tabs, comment, versus) and bigger illustration sizes (300–420) rather than leaving empty space.
+- **Safe zones**: keep all important text and cards between y≈220 and y≈1480, and away from the right 150 px (Instagram's like/comment/share buttons). Flip-layout text now sits at bottom 420 by default and the brand pill at bottom 430 — don't push them lower.
+- **Loop**: let the last line lead back into the first ("…aur isliye, pehla sawaal phir se:") where it fits, so a rewatch feels natural.
+- **Big readable text**: nothing smaller than ~28 px inside mockups; if a mockup row needs smaller text, cut words instead.

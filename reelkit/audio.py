@@ -97,11 +97,12 @@ def scene_events(sc, t0, idx):
     add = lambda t, k: ev.append((t0 + t, k))
     if idx > 0:
         add(-0.18, 'whoosh')
-    start = sc.get('textAt', 0); gap = sc.get('gap', .26); k = 0
+    fast = idx == 0 and not sc.get('slowHook')
+    start = 0 if fast else sc.get('textAt', 0); gap = .05 if fast else sc.get('gap', .26); ws = .012 if fast else .05; k = 0
     for i, ln in enumerate(sc.get('lines', [])):
         for tx, cls in ln:
             for w in words_in(tx, cls):
-                s = start + i * gap + k * .05; k += 1
+                s = start + i * gap + k * ws; k += 1
                 if (cls or '').startswith('accent'):
                     add(s + .05, 'pop')
     v = sc.get('visual')
