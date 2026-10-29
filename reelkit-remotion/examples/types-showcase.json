@@ -1,0 +1,13 @@
+{
+  "theme": "light",
+  "scenes": [
+    { "type": "search", "dur": 3, "head": "Customer pehle *search* karta hai", "prefix": "best ", "words": ["caterer", "sweets", "furniture"], "suffix": " near me" },
+    { "type": "chat", "dur": 3.5, "head": "Raat 11 baje *enquiry*", "title": "Your Business", "messages": [ { "from": "customer", "text": "Bhai, 200 logon ka menu bhejo?" }, { "from": "shop", "text": "Website pe poora menu hai 👇" } ] },
+    { "type": "versus", "dur": 3.5, "head": "*Myth* vs sach", "left": { "title": "Myth", "items": ["Instagram kaafi hai"] }, "right": { "title": "Sach", "items": ["Google pe website dikhti hai"] } },
+    { "type": "stat", "dur": 3.2, "head": "Aapke customer *online* hain", "value": 958, "suffix": " million", "label": "active internet users in India", "source": "IAMAI report, Jan 2026" },
+    { "type": "flow", "dur": 3.5, "head": "Customer ka *raasta*", "steps": [ { "illus": "search", "label": "Google search" }, { "illus": "website", "label": "Aapki website" }, { "illus": "chat", "label": "WhatsApp enquiry" } ] },
+    { "type": "illus", "dur": 3, "head": "Sirf *Instagram* pe?", "items": [ { "illus": "phone", "label": "Insta page" }, { "illus": "search", "label": "Google pe nahi", "bad": true, "cross": 1.6 } ] },
+    { "type": "plan", "dur": 3.5, "head": "Business plan", "name": "Business", "price": "₹5,999", "badge": "Most popular", "note": "Up to 5 pages", "items": ["Enquiry form + WhatsApp", "Google Maps + SEO basics", "Domain aapke naam pe"] },
+    { "type": "cta", "dur": 3.5 }
+  ]
+}

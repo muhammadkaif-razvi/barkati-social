@@ -1,5 +1,7 @@
 # BARKATI reel kit (story reels with illustrations, sound effects, NO music)
 
+> **From 30 Oct 2026 BARKATI reels are made with `../reelkit-remotion/` (Remotion).** This kit is kept for reference and for its illustrations (`illus.js`, used by the Remotion kit).
+
 BARKATI's own copy of the story-reel kit (forked from the shared kit on 27 Oct 2026). Use THIS folder for BARKATI reels; never put Mujeeb Technologies anything in here.
 
 Text-led 1080x1920 story reels: words pop in, highlighter swipes, camera punch-in + drift, screen shake, swipe/slide/zoom transitions, phone/browser/chat mockups, **flat illustrations (illus.js)**, emoji or illustration stickers, pills, progress bar. Sound = procedural sound effects from audio.py (typing, clicks, pops, whooshes, dings) + optional voiceover. **Never music.**

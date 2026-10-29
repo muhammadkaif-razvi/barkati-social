@@ -1,0 +1,48 @@
+{
+  "theme": "navy",
+  "scenes": [
+    {
+      "type": "hook", "dur": 3.6,
+      "kicker": "// BAAT SUNLO",
+      "head": "Customer *Google* pe aapko dhoond raha hai",
+      "pill": "Har local business ke liye",
+      "vo": "Baat sunlo... customer Google pe aapka kaam dhoond raha hai.",
+      "stickers": [{ "illus": "search", "x": 820, "y": 1330, "size": 300, "anim": "drop" }, { "illus": "phone", "x": 240, "y": 1360, "size": 280, "anim": "pop", "rot": -8 }]
+    },
+    {
+      "type": "compare", "dur": 4.7,
+      "head": "Website mili… *competitor* ki.",
+      "good": { "title": "Doosra Showroom", "url": "doosrashowroom.in", "badge": "Website hai" },
+      "bad": { "title": "Your Business", "url": "— no link —", "badge": "Website nahi" },
+      "vo": "Aur website mili, aapke competitor ki. Bas teen cheezein chahiye:"
+    },
+    {
+      "type": "list", "dur": 4.6,
+      "kicker": "// SIMPLE HAI",
+      "head": "Bas *teen* cheezein",
+      "items": [
+        { "illus": "phone", "title": "Mobile pe jaldi khule", "sub": "Customer wait nahi karta" },
+        { "illus": "chat", "title": "WhatsApp button", "sub": "Ek tap mein enquiry" },
+        { "illus": "pin", "title": "Maps pe location", "sub": "Dukaan tak seedha raasta" }
+      ],
+      "vo": "mobile pe jaldi khule, WhatsApp button ho, aur Maps pe location."
+    },
+    {
+      "type": "phone", "dur": 3.0,
+      "head": "*BARKATI* mein hum aisi website banate",
+      "site": { "name": "Your Business", "tagline": "Quality kaam, aapke sheher mein" },
+      "vo": "BARKATI mein hum aisi website banate."
+    },
+    {
+      "type": "offer", "dur": 1.5,
+      "title": "Free homepage demo",
+      "sub": "Pehle dekho, phir decide karo",
+      "vo": "Free demo chahiye?"
+    },
+    {
+      "type": "cta", "dur": 3.5,
+      "head": "Free *demo* chahiye?",
+      "vo": "DEMO comment karo."
+    }
+  ]
+}

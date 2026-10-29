@@ -5,3 +5,7 @@ reelkit/*.woff2
 reelkit/pv/
 reelkit/barkati-logo-tight.png
 reelkit/package*.json
+reelkit-remotion/node_modules/
+reelkit-remotion/work/
+reelkit-remotion/out/
+reelkit-remotion/public/vo*.wav
