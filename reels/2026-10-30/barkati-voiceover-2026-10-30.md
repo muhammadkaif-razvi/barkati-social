@@ -1,5 +1,6 @@
 # BARKATI voiceover — 2026-10-30 (Friday, ISO week 44 → Growth plan)
 
+Buffer: scheduled — both reels on IG + FB (13:00 and 20:00 IST, 30 Oct 2026; files reels/2026-10-30/ in barkati-social, commit c2afedf).
 Engine: Remotion (barkati-social/reelkit-remotion). Voice: "Viraj - Energetic & Clear Hindi Narrator" (FmBhnvP58BK0vz65OOj7), eleven_multilingual_v2, 1 take per reel. Enhancement (kit/voice-enhance.sh): yes, plus atempo 1.08 (8% faster, pitch kept) so the scenes fit the target lengths. Final loudness: reel 1 −13.8 LUFS, reel 2 −14.1 LUFS. Credits used today: 302 + 476 = 778. No music (sound effects + voice only).
 Skills used: social-media-skills reels-script, short-form-video-script, hook-writer, caption-writer, hashtag-strategy, instagram-reels-publishing, instagram-growth (brand profile = claude/local-brand.md).
 Kit fix committed with these reels: preview.sh/render.sh now also find the Playwright headless shell at chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell (new container layout; Remotion's own browser download is blocked).
@@ -21,7 +22,7 @@ Hook options (Curiosity / Pattern interrupt / Identity / First-2s clarity / Comp
 | 11.2–16.6s | phone | "BARKATI mein sahi button" · phone mockup "Your Business — Ek link, sab sahi jaankari", Call + WhatsApp buttons, map, label "Sample design" | BARKATI mein hum, website pe ekdam sahi call aur WhatsApp button lagate. |
 | 16.6–20.8s | cta | "Homepage demo free" · comment box types DEMO · "DEMO comment karo — demo ka link DM mein" · logo + barkati.in | Homepage demo free. DEMO comment karo. |
 
-Buffer: see report below.
+Buffer: scheduled — Instagram @barkati_in (Buffer: barkati_0001) + Facebook "Barkati", Fri 30 Oct 2026 13:00 IST (commit c2afedf)
 
 ## Reel 2 · 20:00 IST · Plan — Growth ₹17,999 + ₹499/month (who it's for: lots of products, rates that change)
 Angle: Plan (Growth, even ISO week) · Archetype: two-customers comparison → adapted as "who needs which plan" (abhi vs admin panel) · Viral structure: none (library empty) · Theme: navy · Scene types: hook → illus → versus → flow → plan → offer → cta · Length 32.6 s
@@ -41,3 +42,5 @@ Hook options:
 | 15.3–21.4s | plan | "Growth plan" · ₹17,999 · + ₹499/month server & care · Up to 12 pages · Custom admin panel · Domain aapke naam pe | Satrah hazaar nau sau ninyaanve rupaye, plus chaar sau ninyaanve mahina, server aur care. |
 | 21.4–27.1s | offer | Ribbon "Khushkhabri" · gift · "Homepage demo free — Payment se pehle dekho" | Pehle homepage demo, free. Nakko pasand, koi baat nahi. |
 | 27.1–32.6s | cta | "Pehle demo dekho" · comment box types DEMO · "DEMO comment karo — link DM mein aa jayega" · logo + barkati.in | Baat sunlo, DEMO comment karo, link DM mein aa jayega. |
+
+Buffer: scheduled — Instagram @barkati_in (Buffer: barkati_0001) + Facebook "Barkati", Fri 30 Oct 2026 20:00 IST (commit c2afedf)
