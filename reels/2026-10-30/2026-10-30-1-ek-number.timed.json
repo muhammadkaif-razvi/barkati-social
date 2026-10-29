@@ -1,0 +1,94 @@
+{
+  "theme": "light",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.05,
+      "kicker": "// BUSINESS TIP",
+      "head": "Card pe ek number, *Insta* pe doosra?",
+      "pill": "Har dukaan wale ke liye 👇",
+      "vo": "Card pe ek number, Insta pe doosra?",
+      "stickers": [
+        {
+          "illus": "phone",
+          "x": 270,
+          "y": 1330,
+          "size": 300,
+          "anim": "pop",
+          "rot": -8
+        },
+        {
+          "illus": "board",
+          "x": 790,
+          "y": 1340,
+          "size": 300,
+          "anim": "drop"
+        }
+      ]
+    },
+    {
+      "type": "illus",
+      "dur": 3.62,
+      "head": "Galat number = *enquiry khatam*",
+      "items": [
+        {
+          "illus": "phone",
+          "label": "Purana number"
+        },
+        {
+          "illus": "chat",
+          "label": "Call nahi laga",
+          "bad": true,
+          "cross": 1.5
+        }
+      ],
+      "vo": "Galat number pe call gaya, toh enquiry khatam."
+    },
+    {
+      "type": "list",
+      "dur": 4.48,
+      "kicker": "// MAHINE MEIN EK BAAR",
+      "head": "Har jagah *same* karo",
+      "items": [
+        {
+          "illus": "phone",
+          "title": "Ek number",
+          "sub": "Jo hamesha uthe"
+        },
+        {
+          "illus": "clock",
+          "title": "Timing",
+          "sub": "Card, Insta, WhatsApp pe same"
+        },
+        {
+          "illus": "pin",
+          "title": "Pata + map",
+          "sub": "Landmark ke saath"
+        }
+      ],
+      "vo": "Mahine mein ek baar, number, timing, pata, har jagah same karo."
+    },
+    {
+      "type": "phone",
+      "dur": 5.43,
+      "head": "*BARKATI* mein sahi button",
+      "site": {
+        "name": "Your Business",
+        "tagline": "Ek link, sab sahi jaankari",
+        "buttons": [
+          "Call",
+          "WhatsApp"
+        ]
+      },
+      "vo": "BARKATI mein hum, website pe ekdam sahi call aur WhatsApp button lagate."
+    },
+    {
+      "type": "cta",
+      "dur": 4.2,
+      "head": "Homepage demo *free*",
+      "line": "DEMO comment karo — demo ka link DM mein",
+      "vo": "Homepage demo free. DEMO comment karo."
+    }
+  ],
+  "voice": "vo1_enh_f.wav"
+}

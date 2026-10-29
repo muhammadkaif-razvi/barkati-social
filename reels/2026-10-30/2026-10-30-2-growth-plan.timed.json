@@ -1,0 +1,121 @@
+{
+  "theme": "navy",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.19,
+      "kicker": "// GROWTH PLAN",
+      "head": "Showroom walo, rate *khud* badlo",
+      "pill": "Bada catalogue? Ye aapke liye 👇",
+      "vo": "Showroom walo, website pe rate khud badlo.",
+      "stickers": [
+        {
+          "illus": "sofa",
+          "x": 270,
+          "y": 1390,
+          "size": 290,
+          "anim": "drop"
+        },
+        {
+          "illus": "rupee",
+          "x": 790,
+          "y": 1380,
+          "size": 290,
+          "anim": "pop",
+          "rot": 8
+        }
+      ]
+    },
+    {
+      "type": "illus",
+      "dur": 3.58,
+      "head": "Products *zyada*, rate badalte rehte?",
+      "items": [
+        {
+          "illus": "sofa",
+          "label": "Furniture showroom"
+        },
+        {
+          "illus": "box",
+          "label": "Wholesaler"
+        },
+        {
+          "illus": "building",
+          "label": "Builder projects"
+        }
+      ],
+      "vo": "Products zyada, rate badalte rehte? Ye aapke liye."
+    },
+    {
+      "type": "versus",
+      "dur": 3.58,
+      "head": "Har badlav pe *intezaar*?",
+      "left": {
+        "title": "Abhi",
+        "items": [
+          "Har change pe message",
+          "Phir intezaar"
+        ]
+      },
+      "right": {
+        "title": "Admin panel",
+        "items": [
+          "Rate, photo khud update"
+        ]
+      },
+      "vo": "Warna har badlav pe message, phir intezaar."
+    },
+    {
+      "type": "flow",
+      "dur": 4.97,
+      "head": "Apna *admin panel*",
+      "steps": [
+        {
+          "illus": "key",
+          "label": "Login"
+        },
+        {
+          "illus": "rupee",
+          "label": "Rate / photo badlo"
+        },
+        {
+          "illus": "website",
+          "label": "Website update"
+        }
+      ],
+      "vo": "Growth plan mein apna admin panel: login, rate ya photo badlo, ho gaya."
+    },
+    {
+      "type": "plan",
+      "dur": 6.11,
+      "head": "*Growth* plan",
+      "name": "Growth",
+      "price": "₹17,999",
+      "note": "+ ₹499/month server & care",
+      "badge": "Admin panel",
+      "items": [
+        "Up to 12 pages",
+        "Custom admin panel",
+        "Domain aapke naam pe"
+      ],
+      "vo": "Satrah hazaar nau sau ninyaanve rupaye, plus chaar sau ninyaanve mahina, server aur care."
+    },
+    {
+      "type": "offer",
+      "dur": 5.69,
+      "title": "Homepage demo free",
+      "sub": "Payment se pehle dekho",
+      "ribbon": "Khushkhabri",
+      "illus": "gift",
+      "vo": "Pehle homepage demo, free. Nakko pasand, koi baat nahi."
+    },
+    {
+      "type": "cta",
+      "dur": 5.52,
+      "head": "Pehle *demo* dekho",
+      "line": "DEMO comment karo — link DM mein aa jayega",
+      "vo": "Baat sunlo, DEMO comment karo, link DM mein aa jayega."
+    }
+  ],
+  "voice": "vo2_enh_f.wav"
+}

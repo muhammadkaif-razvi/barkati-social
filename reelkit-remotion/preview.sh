@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 PROPS="$1"; DIR="$2"; shift 2
 mkdir -p "$DIR"
 BROWSER=""
-for b in /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell; do [ -x "$b" ] && BROWSER="--browser-executable=$b"; done
+for b in /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell /opt/pw-browsers/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell; do [ -x "$b" ] && BROWSER="--browser-executable=$b"; done
 if [ $# -eq 0 ]; then
   set -- $(node -e 'const p=require(process.argv[1]);let t=0;const o=["0.05"];for(const s of p.scenes){o.push((t+s.dur*0.85).toFixed(2));t+=s.dur}console.log(o.join(" "))' "$(realpath "$PROPS")")
 fi
