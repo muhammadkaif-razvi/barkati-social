@@ -1,0 +1,85 @@
+{
+  "theme": "navy",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 2.28,
+      "kicker": "// HALL · CATERER · SHOWROOM",
+      "head": "Family group mein *aapka naam* aaya… phir?",
+      "pill": "Bade order wale business ke liye 👇",
+      "vo": "Family group mein aapka naam aaya. Phir?",
+      "stickers": [
+        {
+          "illus": "hall",
+          "x": 260,
+          "y": 1385,
+          "size": 260,
+          "anim": "pop",
+          "rot": -6
+        },
+        {
+          "illus": "chat",
+          "x": 800,
+          "y": 1385,
+          "size": 260,
+          "anim": "drop"
+        }
+      ]
+    },
+    {
+      "type": "chat",
+      "dur": 4.56,
+      "head": "Faisla *ghar pe* hota hai",
+      "title": "Family group",
+      "messages": [
+        {
+          "from": "customer",
+          "text": "Ye wala dekho 👇 Rate kitna?"
+        },
+        {
+          "from": "customer",
+          "text": "Photos hain? Kahan pe hai?"
+        }
+      ],
+      "vo": "Bada order ho, toh sab poochte hain: rate, photos, location."
+    },
+    {
+      "type": "compare",
+      "dur": 3.57,
+      "head": "Doosre ka link: *sab dikha*. Aapka?",
+      "good": {
+        "title": "Doosra Hall",
+        "url": "doosrahall.in",
+        "badge": "Photos + rate + map"
+      },
+      "bad": {
+        "title": "Your Business",
+        "url": "— sirf number —",
+        "badge": "Kuch nahi dikha"
+      },
+      "vo": "Doosre ka link khula, sab dikha. Aapka sirf number."
+    },
+    {
+      "type": "phone",
+      "dur": 4.53,
+      "head": "*BARKATI* mein: ek link, poori jaankari",
+      "site": {
+        "name": "Your Business",
+        "tagline": "Photos · Rate · Map",
+        "buttons": [
+          "Call",
+          "WhatsApp"
+        ]
+      },
+      "vo": "BARKATI mein hum aisa link banate hain: photos, rate, map."
+    },
+    {
+      "type": "cta",
+      "dur": 4.5,
+      "head": "Apna *homepage* pehle dekho",
+      "line": "Homepage demo free · payment se pehle",
+      "vo": "Homepage pehle dekhna? DEMO likho, ekdam free."
+    }
+  ],
+  "voice": "vo1_tight.wav"
+}

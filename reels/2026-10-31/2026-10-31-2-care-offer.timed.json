@@ -1,0 +1,146 @@
+{
+  "theme": "light",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 2.72,
+      "kicker": "// KHUSHKHABRI",
+      "head": "Website ban gayi… *kaam khatam?*",
+      "pill": "Har business owner ke liye 👇",
+      "vo": "Website ban gayi, toh kaam khatam? Nakko.",
+      "stickers": [
+        {
+          "illus": "website",
+          "x": 270,
+          "y": 1330,
+          "size": 300,
+          "anim": "pop",
+          "rot": -6
+        },
+        {
+          "illus": "lock",
+          "x": 800,
+          "y": 1340,
+          "size": 290,
+          "anim": "drop"
+        }
+      ]
+    },
+    {
+      "type": "versus",
+      "dur": 3.24,
+      "head": "*Soch* vs sach",
+      "left": {
+        "title": "Soch",
+        "items": [
+          "Ek baar banao",
+          "Phir bhool jao"
+        ]
+      },
+      "right": {
+        "title": "Sach",
+        "items": [
+          "Hosting chalu rahe",
+          "HTTPS lock ho",
+          "Backup ho"
+        ]
+      },
+      "vo": "Use chalte rehna hai: hosting, lock, backup."
+    },
+    {
+      "type": "illus",
+      "dur": 3.91,
+      "head": "Dhyan na diya toh *nuksaan*",
+      "items": [
+        {
+          "illus": "lock",
+          "label": "Lock nahi: \"Not secure\"",
+          "bad": true,
+          "cross": 1.4
+        },
+        {
+          "illus": "calendar",
+          "label": "Hosting ruki: site band",
+          "bad": true,
+          "cross": 2.6
+        }
+      ],
+      "vo": "Lock nahi, toh Not secure dikhta hai. Hosting ruki, toh site band."
+    },
+    {
+      "type": "list",
+      "dur": 3.63,
+      "kicker": "// AAJ CHECK KARO",
+      "head": "Apni site pe *3 check*",
+      "items": [
+        {
+          "illus": "lock",
+          "title": "Lock dikh raha?",
+          "sub": "Address bar mein"
+        },
+        {
+          "illus": "calendar",
+          "title": "Renewal kab hai?",
+          "sub": "Domain + hosting"
+        },
+        {
+          "illus": "key",
+          "title": "Login kiske paas?",
+          "sub": "Aapke paas ho"
+        }
+      ],
+      "vo": "Aaj check karo: lock, renewal date, login kiske paas."
+    },
+    {
+      "type": "phone",
+      "dur": 3.04,
+      "head": "*BARKATI* mein: HTTPS, domain aapke naam",
+      "site": {
+        "name": "Your Business",
+        "tagline": "HTTPS · Domain aapke naam",
+        "buttons": [
+          "Call",
+          "WhatsApp"
+        ]
+      },
+      "vo": "BARKATI mein HTTPS hai, domain aapke naam pe."
+    },
+    {
+      "type": "offer",
+      "dur": 4.12,
+      "ribbon": "Founding offer",
+      "illus": "gift",
+      "title": "Pehle 10 clients: 6 mahine Care plan free",
+      "sub": "Hosting · SSL · Backup · Uptime check · 2 chhote badlav/mahina",
+      "vo": "Khushkhabri! Pehle das clients ko, chhe mahine Care plan free."
+    },
+    {
+      "type": "flow",
+      "dur": 3.45,
+      "head": "Pehle *demo*, phir payment",
+      "steps": [
+        {
+          "illus": "chat",
+          "label": "DEMO comment"
+        },
+        {
+          "illus": "website",
+          "label": "Homepage demo free"
+        },
+        {
+          "illus": "tick",
+          "label": "Pasand aaye toh payment"
+        }
+      ],
+      "vo": "Homepage demo bhi pehle free, pasand aaye tabhi payment."
+    },
+    {
+      "type": "cta",
+      "dur": 4.28,
+      "head": "Free *demo* chahiye?",
+      "line": "Founding offer: pehle 10 clients",
+      "vo": "DEMO comment karo, link DM mein aa jayega."
+    }
+  ],
+  "voice": "vo2_tight.wav"
+}
