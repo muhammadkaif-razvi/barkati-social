@@ -1,5 +1,7 @@
 # BARKATI voiceover — 2026-10-31 (Saturday: Information + Khushkhabri)
 
+
+Buffer: scheduled — both reels on IG + FB (13:00 and 20:00 IST, 31 Oct 2026; files reels/2026-10-31/ in barkati-social, commit e4aa964).
 Engine: Remotion (barkati-social/reelkit-remotion). Voice: "Viraj - Energetic & Clear Hindi Narrator" (FmBhnvP58BK0vz65OOj7), eleven_multilingual_v2, 1 take per reel. Enhancement (kit/voice-enhance.sh): yes. Then pauses tightened (inside a line max 0.28 s, between scenes 0.55 s) using ElevenLabs Scribe word timestamps (free), so the cuts land exactly between lines and reel 1 stays under 22 s — no speed change. Final loudness: reel 1 −13.7 LUFS, reel 2 −13.8 LUFS. Credits used today: 303 + 493 = 796 (transcription 0). No music (sound effects + voice only). No faces.
 Skills used: social-media-skills reels-script, short-form-video-script, hook-writer, caption-writer, hashtag-strategy, instagram-reels-publishing, instagram-growth (brand profile = claude/local-brand.md). Remotion skills not needed (no kit code changed).
 Quality check: both scripts read as a busy owner; no figures used (none in proof-data fits), so no stat claims; "Not secure" = what browsers show for pages without HTTPS (general fact); offers only the real ones (free homepage demo before payment, founding offer: first 10 clients 6 months Care plan free). No prices (not a plan day), no demo time.
@@ -22,7 +24,7 @@ Hook options (Curiosity / Pattern interrupt / Identity / First-2s clarity / Comp
 | 10.4–14.9 s | phone | BARKATI mein: ek link, poori jaankari — Sample design: Your Business — Photos · Rate · Map | BARKATI mein hum aisa link banate hain: photos, rate, map. |
 | 14.9–19.4 s | cta | Apna homepage pehle dekho — types DEMO · Homepage demo free · payment se pehle · logo + barkati.in | Homepage pehle dekhna? DEMO likho, ekdam free. |
 
-CTA: "Homepage pehle dekhna? DEMO likho, ekdam free." · Buffer: BUFFER1
+CTA: "Homepage pehle dekhna? DEMO likho, ekdam free." · Buffer: scheduled — Instagram @barkati_in (Buffer: barkati_0001) + Facebook "Barkati", Sat 31 Oct 2026 13:00 IST (commit e4aa964)
 
 ## Reel 2 · 20:00 IST · Khushkhabri — free homepage demo + founding offer (6 months Care plan free), via "website ke baad ka kaam"
 Angle: Khushkhabri · Archetype: myth buster (versus) · Viral structure: none (library empty) · Theme: light · Scene types: hook → versus → illus → list → phone → offer → flow → cta · Length 28.5 s
@@ -45,4 +47,4 @@ Hook options:
 | 20.7–24.1 s | flow | Pehle demo, phir payment — DEMO comment → Homepage demo free → Pasand aaye toh payment | Homepage demo bhi pehle free, pasand aaye tabhi payment. |
 | 24.1–28.4 s | cta | Free demo chahiye? — types DEMO · Founding offer: pehle 10 clients · logo + barkati.in | DEMO comment karo, link DM mein aa jayega. |
 
-CTA: "DEMO comment karo, link DM mein aa jayega." · Buffer: BUFFER2
+CTA: "DEMO comment karo, link DM mein aa jayega." · Buffer: scheduled — Instagram @barkati_in (Buffer: barkati_0001) + Facebook "Barkati", Sat 31 Oct 2026 20:00 IST (commit e4aa964)
