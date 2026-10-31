@@ -44,4 +44,4 @@ Credits used today: 758 (reel 1: 279, reel 2: 479).
 | 24.2–27.2 s | offer | Khushkhabri: Homepage demo free · Payment se pehle · domain aapke naam pe | Homepage demo free, payment se pehle. |
 | 27.2–33.4 s | cta | "Aapki travels ka demo?" — DEMO typed, logo + barkati.in | Kaiku sochna? DEMO comment karo, link DM mein aa jayega. |
 
-Buffer: see report (filled in after scheduling).
+Buffer: scheduled — Instagram + Facebook, reel 1 at 13:00 IST, reel 2 at 20:00 IST (1 Nov 2026). Repo: reels/2026-11-01 @ 0a3ffd3.
