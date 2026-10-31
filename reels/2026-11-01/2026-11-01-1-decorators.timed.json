@@ -1,0 +1,93 @@
+{
+  "theme": "light",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.5,
+      "kicker": "// EVENT PLANNERS · DECORATORS",
+      "head": "Decorators, customer ye *3 cheezein* dhoondhta hai",
+      "pill": "Aapki website pe 👇",
+      "vo": "Decorators, customer ye teen cheezein dhoondhta hai.",
+      "stickers": [
+        {
+          "illus": "gift",
+          "x": 260,
+          "y": 1385,
+          "size": 260,
+          "anim": "pop",
+          "rot": -6
+        },
+        {
+          "illus": "calendar",
+          "x": 800,
+          "y": 1385,
+          "size": 260,
+          "anim": "drop"
+        }
+      ]
+    },
+    {
+      "type": "illus",
+      "dur": 2.47,
+      "head": "Photos *purane posts* mein dabe",
+      "items": [
+        {
+          "illus": "phone",
+          "label": "Scroll, scroll, scroll…"
+        },
+        {
+          "illus": "chat",
+          "label": "“Haldi setup dikhao?”",
+          "bad": true,
+          "cross": 1.8
+        }
+      ],
+      "vo": "Photos purane posts mein dabe hain."
+    },
+    {
+      "type": "list",
+      "dur": 4.45,
+      "head": "Website pe ye *3 cheezein*",
+      "items": [
+        {
+          "illus": "stars",
+          "title": "Event-wise photos",
+          "sub": "Haldi · Mehendi · Birthday"
+        },
+        {
+          "illus": "rupee",
+          "title": "Starting rate",
+          "sub": "Budget ka andaaza"
+        },
+        {
+          "illus": "pin",
+          "title": "Kahan kaam karte ho",
+          "sub": "Areas aur venues"
+        }
+      ],
+      "vo": "Event wise photos, starting rate, aur kahan kaam karte ho."
+    },
+    {
+      "type": "phone",
+      "dur": 2.57,
+      "head": "*BARKATI* mein hum ye banate hain",
+      "site": {
+        "name": "Your Decor",
+        "tagline": "Haldi · Mehendi · Birthday",
+        "buttons": [
+          "Call",
+          "WhatsApp"
+        ]
+      },
+      "vo": "BARKATI mein hum aisi website banate hain."
+    },
+    {
+      "type": "cta",
+      "dur": 5.31,
+      "head": "Demo *pehle*, payment baad mein",
+      "line": "Homepage demo free",
+      "vo": "Demo chahiye? DEMO comment karo, ekdam free."
+    }
+  ],
+  "voice": "vo1_tight.wav"
+}

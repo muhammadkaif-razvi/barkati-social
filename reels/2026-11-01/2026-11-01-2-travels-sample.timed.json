@@ -1,0 +1,131 @@
+{
+  "theme": "navy",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 4.38,
+      "kicker": "// TRAVELS · CAR RENTAL",
+      "head": "Travels walo: “*Airport drop* ka rate?” Roz?",
+      "pill": "Sample website tour 👇",
+      "vo": "Travels walo, airport drop ka rate, roz yahi sawaal?",
+      "stickers": [
+        {
+          "illus": "car",
+          "x": 260,
+          "y": 1385,
+          "size": 260,
+          "anim": "drive"
+        },
+        {
+          "illus": "plane",
+          "x": 800,
+          "y": 1385,
+          "size": 260,
+          "anim": "float",
+          "rot": -8
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "dur": 3.45,
+      "head": "Aapka customer *phone pe* hai",
+      "value": 958,
+      "suffix": " million",
+      "label": "active internet users in India",
+      "source": "IAMAI report, Jan 2026",
+      "vo": "India mein nau sau athavan million log internet pe hain."
+    },
+    {
+      "type": "chat",
+      "dur": 3.03,
+      "head": "Drive pe ho, *jawab late*",
+      "title": "Your Travels",
+      "messages": [
+        {
+          "from": "customer",
+          "text": "Airport drop ka rate? SUV hai?"
+        },
+        {
+          "from": "shop",
+          "text": "Drive pe hoon, baad mein batata hoon"
+        }
+      ],
+      "vo": "Aap drive pe ho, toh jawab late jata hai."
+    },
+    {
+      "type": "phone",
+      "dur": 4.98,
+      "head": "*Sample design*: car rental website",
+      "site": {
+        "name": "Your Travels",
+        "tagline": "Airport · Local · Outstation",
+        "buttons": [
+          "Call",
+          "WhatsApp"
+        ]
+      },
+      "vo": "Ye BARKATI ka sample design hai, upar call aur WhatsApp."
+    },
+    {
+      "type": "list",
+      "dur": 4.23,
+      "head": "Andar *kya kya* hai",
+      "items": [
+        {
+          "illus": "car",
+          "title": "Gaadiyan, photo ke saath",
+          "sub": "Sedan · SUV · Traveller"
+        },
+        {
+          "illus": "rupee",
+          "title": "Rate list",
+          "sub": "Airport · Local · Outstation"
+        },
+        {
+          "illus": "pin",
+          "title": "Service areas",
+          "sub": "Kahan kahan jaate ho"
+        }
+      ],
+      "vo": "Gaadiyon ki photos, rate list, service areas."
+    },
+    {
+      "type": "flow",
+      "dur": 4.13,
+      "head": "Customer ka *raasta*",
+      "steps": [
+        {
+          "illus": "search",
+          "label": "Search"
+        },
+        {
+          "illus": "website",
+          "label": "Rate dekha"
+        },
+        {
+          "illus": "chat",
+          "label": "WhatsApp pe baat"
+        }
+      ],
+      "vo": "Customer rate dekhta hai, seedha WhatsApp karta hai."
+    },
+    {
+      "type": "offer",
+      "dur": 3.05,
+      "ribbon": "Khushkhabri",
+      "title": "Homepage demo free",
+      "sub": "Payment se pehle · domain aapke naam pe",
+      "illus": "gift",
+      "vo": "Homepage demo free, payment se pehle."
+    },
+    {
+      "type": "cta",
+      "dur": 6.18,
+      "head": "Aapki travels ka *demo*?",
+      "line": "Free homepage demo · link DM mein",
+      "vo": "Kaiku sochna? DEMO comment karo, link DM mein aa jayega."
+    }
+  ],
+  "voice": "vo2_tight.wav"
+}
