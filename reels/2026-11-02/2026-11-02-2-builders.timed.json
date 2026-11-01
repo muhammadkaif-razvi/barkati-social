@@ -1,0 +1,127 @@
+{
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.72,
+   "kicker": "// REAL ESTATE · BUILDERS",
+   "head": "Builder website ki *3 galtiyan*",
+   "pill": "#1 sabse common 👇",
+   "vo": "Builders, आपकी website में ये तीन गलतियाँ तो नहीं?",
+   "stickers": [
+    {
+     "illus": "building",
+     "x": 270,
+     "y": 1370,
+     "size": 280,
+     "anim": "pop",
+     "rot": -5
+    },
+    {
+     "illus": "key",
+     "x": 790,
+     "y": 1370,
+     "size": 250,
+     "anim": "drop"
+    }
+   ]
+  },
+  {
+   "type": "search",
+   "dur": 2.36,
+   "head": "Buyer pehle *online* dekhta hai",
+   "prefix": "new ",
+   "words": [
+    "2 BHK flats",
+    "plots",
+    "villas"
+   ],
+   "suffix": " near me",
+   "vo": "Buyer पहले online project देखता है।"
+  },
+  {
+   "type": "illus",
+   "dur": 6.22,
+   "head": "#3 Brochure sirf *PDF* mein",
+   "items": [
+    {
+     "illus": "phone",
+     "label": "Bhaari PDF"
+    },
+    {
+     "illus": "clock",
+     "label": "Phone pe dheere khule",
+     "bad": true,
+     "cross": 4.3
+    }
+   ],
+   "vo": "तीन: brochure सिर्फ़ PDF में। Phone पर देर से खुलता है।"
+  },
+  {
+   "type": "compare",
+   "dur": 3.89,
+   "head": "#2 *Location* saaf nahi",
+   "good": {
+    "title": "Doosra Project",
+    "url": "doosraproject.in",
+    "badge": "Map + doori"
+   },
+   "bad": {
+    "title": "Your Project",
+    "url": "sirf naam",
+    "badge": "Map nahi"
+   },
+   "vo": "दो: map नहीं। Buyer दूरी जानना चाहता है।"
+  },
+  {
+   "type": "versus",
+   "dur": 3.69,
+   "head": "#1 *Site visit* button nahi",
+   "left": {
+    "title": "Abhi",
+    "items": [
+     "Sirf ek number"
+    ]
+   },
+   "right": {
+    "title": "Sahi",
+    "items": [
+     "Site visit book karo button"
+    ]
+   },
+   "vo": "एक: site visit book करने का button नहीं।"
+  },
+  {
+   "type": "phone",
+   "dur": 5.99,
+   "head": "*BARKATI* mein hum ye banate hain",
+   "site": {
+    "name": "Your Project",
+    "tagline": "2 & 3 BHK · Floor plans · Map",
+    "buttons": [
+     "Site visit",
+     "WhatsApp"
+    ],
+    "label": "Sample design"
+   },
+   "vo": "बरकती में हम floor plan, map और site visit button देते हैं। Builder दोस्त को भेजिए।"
+  },
+  {
+   "type": "offer",
+   "dur": 4.32,
+   "title": "Homepage demo free",
+   "sub": "Pasand aaye tabhi payment · No monthly fee",
+   "ribbon": "Khushkhabri",
+   "illus": "gift",
+   "vo": "Homepage demo पहले free। पसंद आए, तभी payment।"
+  },
+  {
+   "type": "cta",
+   "dur": 4.5,
+   "head": "Apne project ka *demo* dekhiye",
+   "line": "Comment DEMO",
+   "vo": "अपने project का demo देखना है? डेमो comment कीजिए।"
+  }
+ ],
+ "voice": "vo2_enh.wav"
+}
