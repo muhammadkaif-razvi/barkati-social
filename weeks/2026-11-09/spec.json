@@ -1,0 +1,128 @@
+{
+ "items": [
+  {
+   "file": "post-mon",
+   "format": "post",
+   "layout": "list",
+   "marker": "check",
+   "tag": "Website tip",
+   "title": "Write your *About us* in 4 short lines",
+   "items": [
+    {
+     "t": "Say what you do, in plain words",
+     "d": "e.g. \"Wedding and party catering.\""
+    },
+    {
+     "t": "Say where you serve",
+     "d": "Your area, your city, nearby towns."
+    },
+    {
+     "t": "Add one real detail",
+     "d": "Since when, or who runs it. Only if true."
+    },
+    {
+     "t": "Skip empty words",
+     "d": "\"Best quality\" tells a customer nothing."
+    }
+   ],
+   "note": "Save this for when you write yours."
+  },
+  {
+   "file": "post-wed",
+   "format": "post",
+   "layout": "list",
+   "marker": "number",
+   "tag": "Common question",
+   "title": "\"My nephew can *make it.*\"",
+   "items": [
+    {
+     "t": "Fair. Trust matters most",
+     "d": "Someone you know is a good start."
+    },
+    {
+     "t": "Whoever builds it, check the basics",
+     "d": "Domain in your name, fast on the phone, enquiry button."
+    },
+    {
+     "t": "Ask one question before it starts",
+     "d": "\"If I need a change later, who will do it?\""
+    }
+   ],
+   "note": "Pasand aaye toh baat karte hain."
+  },
+  {
+   "file": "post-fri",
+   "format": "post",
+   "layout": "hero",
+   "visual": "browser",
+   "mock": "Wedding and party catering, made fresh",
+   "tag": "Sample design",
+   "title": "A homepage for a *caterer*",
+   "sub": "Menus, event photos and a WhatsApp button on the first screen."
+  },
+  {
+   "file": "story-mon",
+   "format": "story",
+   "layout": "list",
+   "marker": "arrow",
+   "tag": "Quick tip",
+   "title": "4 places your *website link* should be",
+   "items": [
+    {
+     "t": "Instagram bio"
+    },
+    {
+     "t": "Your WhatsApp replies and status"
+    },
+    {
+     "t": "Visiting card and bill book"
+    },
+    {
+     "t": "A QR code at your counter"
+    }
+   ]
+  },
+  {
+   "file": "story-tue",
+   "format": "story",
+   "layout": "versus",
+   "tag": "Myth vs fact",
+   "title": "You need *10 pages* to start?",
+   "items": [
+    {
+     "label": "Myth",
+     "points": [
+      "A real website needs many pages",
+      "Small shops need a big site"
+     ]
+    },
+    {
+     "label": "Fact",
+     "points": [
+      "One clear page is a good start",
+      "Rates, photos, location, contact"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "story-wed",
+   "format": "story",
+   "layout": "hero",
+   "tag": "Quick poll",
+   "title": "Where do new customers *find you* first?",
+   "sticker": "poll sticker here"
+  },
+  {
+   "file": "story-thu",
+   "format": "story",
+   "layout": "hero",
+   "visual": "phone",
+   "mock": "Rates, photos, location",
+   "tag": "Free demo, before any payment",
+   "title": "Your business on *one link.*",
+   "cta": "WhatsApp us: DEMO →",
+   "titleSize": 100
+  }
+ ]
+}
