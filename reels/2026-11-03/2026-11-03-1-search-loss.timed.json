@@ -1,0 +1,83 @@
+{
+  "theme": "light",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.72,
+      "kicker": "// EK SAWAAL · OWNERS",
+      "head": "Aapka naam Google kiya… *mila kya?*",
+      "pill": "Sach dekhiye",
+      "vo": "आपका नाम किसी ने Google किया। उसे क्या मिला?",
+      "stickers": [
+        {
+          "illus": "search",
+          "x": 270,
+          "y": 1360,
+          "size": 280,
+          "anim": "pop",
+          "rot": -6
+        },
+        {
+          "illus": "shop",
+          "x": 790,
+          "y": 1360,
+          "size": 280,
+          "anim": "drop"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "dur": 5.25,
+      "head": "Customer *online* dekh ke kharidta hai",
+      "value": 230,
+      "prefix": "~",
+      "suffix": " million",
+      "label": "urban users shopped online in the past year",
+      "source": "IAMAI report, Jan 2026",
+      "vo": "लगभग दो सौ तीस मिलियन लोगों ने पिछले साल online shopping की।"
+    },
+    {
+      "type": "compare",
+      "dur": 4.55,
+      "head": "Search pe *kya dikha?*",
+      "good": {
+        "title": "Doosra Business",
+        "url": "doosrabusiness.in",
+        "badge": "Rate + photos + WhatsApp"
+      },
+      "bad": {
+        "title": "Your Business",
+        "url": "sirf naam",
+        "badge": "Website nahi"
+      },
+      "vo": "Customer पहले देखता है। आपकी website नहीं, तो सिर्फ़ नाम मिलता है।"
+    },
+    {
+      "type": "illus",
+      "dur": 4.55,
+      "head": "Call *doosre* ko gaya",
+      "items": [
+        {
+          "illus": "phone",
+          "label": "Rate + photos wala"
+        },
+        {
+          "illus": "rupee",
+          "label": "Aapka order",
+          "bad": true,
+          "cross": 1.8
+        }
+      ],
+      "vo": "Rate और photos वाला दूसरा business, call वहीं जाता है।"
+    },
+    {
+      "type": "cta",
+      "dur": 6.11,
+      "head": "Search pe *poori jaankari*",
+      "line": "Homepage demo free · owner dost ko bhejiye",
+      "vo": "बरकती में हम पूरी जानकारी वाली website बनाते हैं। डेमो comment कीजिए।"
+    }
+  ],
+  "voice": "vo1b_enh.wav"
+}

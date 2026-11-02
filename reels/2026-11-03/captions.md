@@ -1,20 +1,22 @@
 # Captions 2026-11-03 (Buffer text, IG + FB)
 
-## Reel 1 · 13:00 IST · 2026-11-03-1-rate-tip.mp4
+## Reel 1 · 13:00 IST · 2026-11-03-1-search-loss.mp4 (replaced the rate-tip reel on Raza's request, 2 Nov)
 
-"Price ke liye DM karein" sounds safe. For many customers it is where they stop.
+Someone heard your name today and searched for it. What did they find?
 
-Most buyers want a rough idea before they message anyone.
-You don't need your full rate list online.
-Write a starting rate and what it includes. That's enough to start the conversation.
-Aaj hi apne page pe check kijiye.
+About 230 million urban internet users in India shopped online in the past year.
+Customers check before they call.
+No website? They see only your name. Another business shows rates, photos and a WhatsApp button, and gets the call.
+Aaj apna naam Google karke dekhiye.
 
-Save this, and send it to an owner friend who still writes "DM for price".
+Source: IAMAI report, Jan 2026
 
-Want a website where you change rates yourself? Comment "DEMO".
+Kisi owner dost ko bhejiye.
+
+Comment "DEMO" for a free homepage demo.
 barkati.in
 
-#barkati #localbusiness #smallbusinessindia #businesstips #websitedesign
+#barkati #localbusiness #smallbusinessindia #websitedesign #businesswebsite
 
 ## Reel 2 · 20:00 IST · 2026-11-03-2-starter-plan.mp4
 
