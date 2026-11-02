@@ -3,29 +3,34 @@
 Engine: Remotion (barkati-social/reelkit-remotion). Voice: "Viraj - Energetic & Clear Hindi Narrator" (FmBhnvP58BK0vz65OOj7), eleven_multilingual_v2, enhanced with kit/voice-enhance.sh. No music, no faces.
 Skills used: social-media-skills:reels-script, short-form-video-script, hook-writer, caption-writer, hashtag-strategy, instagram-reels-publishing, instagram-growth (the viral reel method in claude/reel-content-plan.md and the task prompt took priority).
 Site check: barkati.in could NOT be opened this run (WebFetch permission request timed out in the unattended run). Prices/offers taken from claude/local-brand.md + claude/barkati-pricing-plan.md (final 31 Oct, matched the site on the 1 Nov check): Starter ₹4,999 one-time, no monthly fee, free homepage demo first, domain + code in your name.
-Credits used today: 735 (271 + 464 speech; transcription 0). Viral structure: none (claude/viral-structures.md has no entries).
+Credits used today: 1,076 (271 old reel 1 + 464 reel 2 in the scheduled run, + 341 for the replacement reel 1 on Raza's request; transcription 0). Over the ~850 daily target because of the redo. Viral structure: none (claude/viral-structures.md has no entries).
 
 ---
 
-## Reel 1 · 13:00 IST · 2026-11-03-1-rate-tip.mp4
-- Angle: Business coach (Tue #1) · Content type: quick tip (21.6 s, slightly over the 10–18 s range because of the CTA line) · Archetype: POV chat
-- Topic: "Price ke liye DM karein" stops many customers; write a starting rate + what's included
-- Figures: none (general coach advice, softened to "kai customer") · Site facts: simple admin to change rates yourself, free demo
-- Theme: light · Scenes: hook, chat, versus, cta
+## Reel 1 · 13:00 IST · 2026-11-03-1-search-loss.mp4
+(Replaced on 2 Nov after Raza's feedback: the rate-tip reel was not right; he asked for one exact business problem, opening with a question + data on how businesses without a website lose customers.)
+- Angle: Real data + business problem (Tue #1, swapped in on Raza's request) · Content type: explanation (24.3 s) · Archetype: data-led explainer
+- Topic: someone hears your name and searches it; with no website they find only a name, while another business shows rates, photos, WhatsApp and gets the call
+- Figure: D3 "About 230 million people (56% of urban active internet users) shopped online in the past year", Source: IAMAI report, Jan 2026 (claude/proof-data.md)
+- Site facts: free homepage demo
+- Theme: light · Scenes: hook, stat, compare, illus, cta
 
 Hook options (curiosity / pattern interrupt / identity / 2-s clarity = /20):
-1. Pain point: "\"Price DM mein\" likha hai?" / "आपके page पर लिखा है, price के लिए DM कीजिए?" / chat bubble pops: 4/3/4/5 = 16
-2. WINNER: Pattern interrupt / correction: "Rate *chhupana* band kijiye" / "अपना rate छुपाना बंद कीजिए।" / rupee + shop stickers pop: 4/5/3/5 = **17**
-3. Curiosity gap: "Customer rate kyun nahi poochta?" / spoken question / chat teased: 5/3/2/3 = 13
+1. WINNER: Curiosity gap question: "Aapka naam Google kiya… *mila kya?*" / "आपका नाम किसी ने Google किया। उसे क्या मिला?" / search + shop stickers: 5/4/4/4 = **17**
+2. Authority: "230 million log online kharidte hain": 3/3/2/4 = 12
+3. Pain point: "Customer aaya nahi, kyunki kuch mila nahi": 4/3/4/3 = 14
 
-Quality score: Hook 21/25 · Content value + structure 20/25 · Caption & CTA 17/20 · Format 12/15 · Algorithm signals 12/15 = **82/100**
+Quality score: Hook 22/25 · Content value + structure 21/25 · Caption & CTA 17/20 · Format 13/15 · Algorithm signals 12/15 = **85/100**
 
 | Time | Scene type | What's on screen | Voiceover script |
 |---|---|---|---|
-| 0.0–2.4 | hook | // QUICK TIP · OWNERS · "Rate chhupana band kijiye" · pill "Ek kaam, aaj hi" · rupee + shop | अपना rate छुपाना बंद कीजिए। |
-| 2.4–6.8 | chat | "Customer ka mann" · Your Business chat: "Rate kya hai?" → "Price ke liye DM karein" → "Rehne do, doosra dekhta hoon" | Price के लिए DM लिखा हो, तो कई customer पूछते ही नहीं। |
-| 6.8–13.8 | versus | "Aaj hi badliye" · Abhi: Price ke liye DM karein ✗ · Sahi: Starting rate likhiye, Kya shamil hai, saaf | पूरा rate नहीं, बस starting rate और क्या शामिल है, लिखिए। Save कर लीजिए। |
-| 13.8–21.6 | cta | "Rate khud badliye" · DEMO typed · "BARKATI website: admin se rate update" · logo + barkati.in | बरकती की website पर rate आप खुद बदल सकते हैं। Free demo के लिए डेमो comment कीजिए। |
+| 0.0–3.7 | hook | // EK SAWAAL · OWNERS · "Aapka naam Google kiya… mila kya?" · pill "Sach dekhiye" · search + shop | आपका नाम किसी ने Google किया। उसे क्या मिला? |
+| 3.7–9.0 | stat | "Customer online dekh ke kharidta hai" · ~230 million urban users shopped online in the past year · Source: IAMAI report, Jan 2026 | लगभग दो सौ तीस मिलियन लोगों ने पिछले साल online shopping की। |
+| 9.0–13.5 | compare | "Search pe kya dikha?" · Doosra Business (Rate + photos + WhatsApp) vs Your Business (sirf naam, Website nahi) | Customer पहले देखता है। आपकी website नहीं, तो सिर्फ़ नाम मिलता है। |
+| 13.5–18.1 | illus | "Call doosre ko gaya" · phone "Rate + photos wala" · rupee "Aapka order" ✗ | Rate और photos वाला दूसरा business, call वहीं जाता है। |
+| 18.1–24.3 | cta | "Search pe poori jaankari" · DEMO typed · "Homepage demo free · owner dost ko bhejiye" · logo + barkati.in | बरकती में हम पूरी जानकारी वाली website बनाते हैं। डेमो comment कीजिए। |
+
+Voice: Viraj (FmBhnvP58BK0vz65OOj7), 341 credits; transcript matched the script word for word; enhanced; −14.0 LUFS; scene timing from fit.mjs (matches word timings). Voice script 297 characters (over the 260 target, to fit question + data + problem as Raza asked).
 
 ---
 
