@@ -1,0 +1,78 @@
+{
+  "theme": "light",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 2.42,
+      "kicker": "// QUICK TIP · OWNERS",
+      "head": "Rate *chhupana* band kijiye",
+      "pill": "Ek kaam, aaj hi",
+      "vo": "अपना rate छुपाना बंद कीजिए।",
+      "stickers": [
+        {
+          "illus": "rupee",
+          "x": 270,
+          "y": 1360,
+          "size": 280,
+          "anim": "pop",
+          "rot": -6
+        },
+        {
+          "illus": "shop",
+          "x": 790,
+          "y": 1360,
+          "size": 280,
+          "anim": "drop"
+        }
+      ]
+    },
+    {
+      "type": "chat",
+      "dur": 4.4,
+      "head": "Customer ka *mann*",
+      "title": "Your Business",
+      "messages": [
+        {
+          "from": "customer",
+          "text": "Rate kya hai?"
+        },
+        {
+          "from": "shop",
+          "text": "Price ke liye DM karein"
+        },
+        {
+          "from": "customer",
+          "text": "Rehne do, doosra dekhta hoon"
+        }
+      ],
+      "vo": "Price के लिए DM लिखा हो, तो कई customer पूछते ही नहीं।"
+    },
+    {
+      "type": "versus",
+      "dur": 6.94,
+      "head": "Aaj hi *badliye*",
+      "left": {
+        "title": "Abhi",
+        "items": [
+          "Price ke liye DM karein"
+        ]
+      },
+      "right": {
+        "title": "Sahi",
+        "items": [
+          "Starting rate likhiye",
+          "Kya shamil hai, saaf"
+        ]
+      },
+      "vo": "पूरा rate नहीं, बस starting rate और क्या शामिल है, लिखिए। Save कर लीजिए।"
+    },
+    {
+      "type": "cta",
+      "dur": 7.72,
+      "head": "Rate khud *badliye*",
+      "line": "BARKATI website: admin se rate update",
+      "vo": "बरकती की website पर rate आप खुद बदल सकते हैं। Free demo के लिए डेमो comment कीजिए।"
+    }
+  ],
+  "voice": "vo1_enh.wav"
+}

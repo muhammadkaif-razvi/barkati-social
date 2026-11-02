@@ -1,0 +1,97 @@
+{
+ "theme": "navy",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 4.0,
+   "kicker": "// STARTER PLAN",
+   "head": "“Itni chhoti dukaan ko *website*?”",
+   "pill": "Sahi sawaal",
+   "vo": "इतने छोटे business को website चाहिए? सही सवाल है।",
+   "stickers": [
+    {
+     "illus": "store",
+     "x": 270,
+     "y": 1360,
+     "size": 280,
+     "anim": "pop",
+     "rot": -5
+    },
+    {
+     "illus": "website",
+     "x": 790,
+     "y": 1360,
+     "size": 280,
+     "anim": "drop"
+    }
+   ]
+  },
+  {
+   "type": "illus",
+   "dur": 4.2,
+   "head": "Customer pehle *phone* pe dhoondhta hai",
+   "items": [
+    {
+     "illus": "rupee",
+     "label": "Rate?"
+    },
+    {
+     "illus": "pin",
+     "label": "Pata?"
+    },
+    {
+     "illus": "phone",
+     "label": "Number?"
+    }
+   ],
+   "vo": "Customer पहले phone पर rate, पता और number ढूँढता है।"
+  },
+  {
+   "type": "phone",
+   "dur": 6.4,
+   "head": "*Ek page*, saari jaankari",
+   "site": {
+    "name": "Your Business",
+    "tagline": "Rates · Photos · Map",
+    "buttons": [
+     "Call",
+     "WhatsApp"
+    ],
+    "label": "Sample design"
+   },
+   "vo": "इसके लिए एक page काफ़ी है। Rate, photos, map, call और WhatsApp button।"
+  },
+  {
+   "type": "plan",
+   "dur": 7.2,
+   "head": "BARKATI *Starter*",
+   "name": "Starter",
+   "price": "₹4,999",
+   "badge": "One-time",
+   "note": "1 page · 5–6 sections",
+   "items": [
+    "Enquiry form + WhatsApp + call",
+    "Google Maps + SEO basics",
+    "Admin: rate, photos khud badlo"
+   ],
+   "vo": "बरकती का Starter plan, चार हज़ार नौ सौ निन्यानवे रुपये, एक बार। Form, map और admin साथ में।"
+  },
+  {
+   "type": "offer",
+   "dur": 5.0,
+   "ribbon": "Khushkhabri",
+   "title": "Pehle homepage demo, free",
+   "sub": "No monthly fee · Domain aapke naam",
+   "illus": "gift",
+   "vo": "पहले homepage demo free। कोई monthly fee नहीं, domain आपके नाम पर।"
+  },
+  {
+   "type": "cta",
+   "dur": 6.65,
+   "head": "Apna *homepage* dekhiye",
+   "line": "Dukaan wale dost ko bhejiye",
+   "vo": "किसी दुकान वाले दोस्त को भेजिए। अपना homepage देखना है? डेमो comment कीजिए।"
+  }
+ ],
+ "voice": "vo2_enh.wav"
+}
