@@ -19,6 +19,9 @@ type Base = {
   head?: string; // headline; wrap words in *stars* for cyan
   sub?: string; // supporting line
   stickers?: Sticker[];
+  ghost?: string; // huge outline word behind the scene (noir style), e.g. "WALK"
+  cap?: string; // karaoke caption at the bottom (Roman Hinglish), current word highlighted
+  meterStep?: number; // top progress meter fills to this step when the scene starts
 };
 
 export type Scene =
@@ -49,10 +52,18 @@ export type Scene =
     })
   | (Base & { type: "offer"; title: string; ribbon?: string; illus?: string })
   | (Base & { type: "plan"; name: string; price: string; note?: string; badge?: string; items: string[] })
-  | (Base & { type: "cta"; line?: string });
+  | (Base & { type: "cta"; line?: string })
+  | (Base & {
+      type: "feature";
+      num?: string; // "01" … shown before the headline
+      screen?: { badge?: string; illus?: string; title?: string; button?: string };
+      cards?: { label: string; text: string; illus?: string; side?: "left" | "right"; at?: number }[];
+    });
 
 export type ReelProps = {
-  theme?: "navy" | "light"; // rotate across days for variety
+  theme?: "navy" | "light" | "noir"; // rotate across days for variety
+  meter?: { label: string; total: number }; // top bar progress meter (e.g. "WEBSITE CHECKLIST", 5)
+  handle?: string; // top-left label in the top bar, default "barkati.in"
   voice?: string; // file in public/, e.g. "vo1.wav"; omit for SFX-only
   scenes: Scene[];
 };

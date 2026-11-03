@@ -1,0 +1,176 @@
+{
+ "theme": "noir",
+ "meter": {
+  "label": "WEBSITE CHECKLIST",
+  "total": 5
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.2,
+   "kicker": "// INTERIOR DESIGNERS",
+   "head": "Kaam *shandaar*, phir bhi enquiry kam?",
+   "sub": "Website mein ye 5 cheezein check kijiye",
+   "ghost": "DESIGN",
+   "stickers": [
+    {
+     "illus": "sofa",
+     "x": 330,
+     "y": 1330,
+     "size": 230,
+     "anim": "float"
+    },
+    {
+     "illus": "building",
+     "x": 700,
+     "y": 1320,
+     "size": 220,
+     "anim": "float"
+    }
+   ],
+   "vo": "Interior designers, काम शानदार है, फिर भी enquiry कम आती है?"
+  },
+  {
+   "type": "feature",
+   "dur": 3.6,
+   "num": "01",
+   "head": "Before *after*",
+   "ghost": "AFTER",
+   "meterStep": 1,
+   "screen": {
+    "badge": "● BEFORE / AFTER",
+    "illus": "sofa",
+    "title": "Pehle aur baad, ek slider mein",
+    "button": "Slide karo"
+   },
+   "cards": [
+    {
+     "label": "Client sochta hai",
+     "text": "Mera ghar bhi aisa?",
+     "side": "left"
+    }
+   ],
+   "cap": "Pehle aur baad, ek hi slider mein",
+   "vo": "पहला: Before और after, एक slider में। Client को फ़र्क तुरंत दिखता है।"
+  },
+  {
+   "type": "feature",
+   "dur": 3.6,
+   "num": "02",
+   "head": "Site *walkthrough*",
+   "ghost": "WALK",
+   "meterStep": 2,
+   "screen": {
+    "badge": "● REC {t}",
+    "illus": "building",
+    "title": "Har kamre ka chhota video",
+    "button": "Walkthrough"
+   },
+   "cards": [
+    {
+     "label": "Floor plan",
+     "text": "Living · Kitchen · Bedroom",
+     "illus": "pin",
+     "side": "right"
+    }
+   ],
+   "cap": "Har kamre ka chhota walkthrough video",
+   "vo": "दूसरा: Site walkthrough. हर कमरे का छोटा video, ताकि client घूमकर देखे।"
+  },
+  {
+   "type": "feature",
+   "dur": 3.6,
+   "num": "03",
+   "head": "Sketch se *handover*",
+   "ghost": "PROCESS",
+   "meterStep": 3,
+   "screen": {
+    "badge": "● STEP 1 · 2 · 3",
+    "illus": "calendar",
+    "title": "Sketch → 3D → Handover",
+    "button": "Process dekho"
+   },
+   "cards": [
+    {
+     "label": "Client ka sawaal",
+     "text": "Kaam kaise hoga?",
+     "side": "left"
+    }
+   ],
+   "cap": "Sketch se 3D se handover tak ka process",
+   "vo": "तीसरा: आपका process. Sketch, फिर 3D, फिर handover. इससे client को भरोसा होता है।"
+  },
+  {
+   "type": "feature",
+   "dur": 3.4,
+   "num": "04",
+   "head": "Asli *reviews*",
+   "ghost": "TRUST",
+   "meterStep": 4,
+   "screen": {
+    "badge": "● GOOGLE REVIEWS",
+    "illus": "stars",
+    "title": "Reviews ka link, website pe",
+    "button": "Reviews padho"
+   },
+   "cards": [
+    {
+     "label": "Naya client",
+     "text": "Pehle reviews dekhta hai",
+     "side": "right"
+    }
+   ],
+   "cap": "Asli client reviews, Google ke link ke saath",
+   "vo": "चौथा: असली reviews. अपने Google reviews का link दीजिए।"
+  },
+  {
+   "type": "feature",
+   "dur": 3.8,
+   "num": "05",
+   "head": "Site visit *button*",
+   "ghost": "VISIT",
+   "meterStep": 5,
+   "screen": {
+    "badge": "● WHATSAPP",
+    "illus": "chat",
+    "title": "Site visit book karo",
+    "button": "WhatsApp karo"
+   },
+   "cards": [
+    {
+     "label": "Sabse zaroori",
+     "text": "Ek tap mein baat",
+     "illus": "phone",
+     "side": "left"
+    }
+   ],
+   "cap": "Aur sabse zaroori: WhatsApp pe site visit button",
+   "vo": "और पाँचवीं चीज़ सबसे ज़रूरी है: WhatsApp पर site visit book करने का button."
+  },
+  {
+   "type": "phone",
+   "dur": 3.8,
+   "head": "Ye *sab*, ek website mein",
+   "ghost": "BARKATI",
+   "site": {
+    "name": "Studio Noor Interiors",
+    "tagline": "Ghar jo aapka lage",
+    "buttons": [
+     "Call karo",
+     "WhatsApp"
+    ],
+    "form": "Site visit book karo",
+    "label": "Sample design"
+   },
+   "cap": "Sample design: Studio Noor Interiors",
+   "vo": "बरकती में हम ये सब एक website में बनाते हैं। ये एक sample design है।"
+  },
+  {
+   "type": "cta",
+   "dur": 4.2,
+   "head": "Apna homepage *pehle* dekhiye",
+   "line": "Comment karo DEMO, homepage demo free",
+   "vo": "पहले free homepage demo देखिए। नीचे डेमो comment कीजिए।"
+  }
+ ]
+}

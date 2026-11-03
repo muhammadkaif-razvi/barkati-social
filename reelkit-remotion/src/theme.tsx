@@ -27,6 +27,7 @@ export const AMBER = "#FFB020";
 export const HEAD = "Manrope";
 export const MONO = "JetBrains Mono";
 export const BODY = "Inter";
+export const SERIF = "Instrument Serif";
 
 const fonts: [string, string, string][] = [
   [HEAD, "manrope-latin-800-normal.woff2", "800"],
@@ -40,9 +41,10 @@ const fonts: [string, string, string][] = [
 for (const [family, file, weight] of fonts) {
   loadFont({ family, url: staticFile(`fonts/${file}`), weight });
 }
+loadFont({ family: SERIF, url: staticFile("fonts/instrument-serif-latin-400-italic.woff2"), weight: "400", style: "italic" });
 
 export type Theme = {
-  name: "navy" | "light";
+  name: "navy" | "light" | "noir";
   bg: string;
   fg: string;
   muted: string;
@@ -53,7 +55,18 @@ export type Theme = {
   glow: string;
 };
 
-export const THEMES: Record<"navy" | "light", Theme> = {
+export const THEMES: Record<"navy" | "light" | "noir", Theme> = {
+  noir: {
+    name: "noir",
+    bg: "#14130F",
+    fg: "#F4F1EA",
+    muted: "#9A958A",
+    card: "#1E1C18",
+    cardBorder: "#34312A",
+    hi: CYAN,
+    grid: "rgba(0,0,0,0)",
+    glow: "rgba(0,194,255,0.10)",
+  },
   navy: {
     name: "navy",
     bg: NAVY,
@@ -152,7 +165,7 @@ export const IllusTile: React.FC<{ name: string; size: number; style?: React.CSS
 /** On the navy theme the illustrations' navy parts would vanish, so they sit on white tiles there. */
 export const ThemedIllus: React.FC<{ name: string; size: number }> = ({ name, size }) => {
   const t = useTheme();
-  return t.name === "navy" ? <IllusTile name={name} size={size} /> : <Illus name={name} size={size} />;
+  return t.name !== "light" ? <IllusTile name={name} size={size} /> : <Illus name={name} size={size} />;
 };
 
 export const StickerLayer: React.FC<{ stickers?: Sticker[]; instant?: boolean }> = ({ stickers, instant }) => {
@@ -207,6 +220,22 @@ export const StickerLayer: React.FC<{ stickers?: Sticker[]; instant?: boolean }>
 export const Background: React.FC<{ total: number }> = ({ total }) => {
   const frame = useCurrentFrame();
   const t = useTheme();
+  if (t.name === "noir") {
+    return (
+      <AbsoluteFill style={{ backgroundColor: t.bg, overflow: "hidden" }}>
+        <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, rgba(255,255,255,0.06) 0%, rgba(0,0,0,0) 55%)" }} />
+        {Array.from({ length: 38 }).map((_, i) => {
+          const x = (i * 283) % 1080;
+          const y0 = (i * 517) % 1920;
+          const y = (y0 - frame * (0.3 + (i % 5) * 0.12) + 1920 * 4) % 1920;
+          const tw = 0.25 + 0.35 * Math.abs(Math.sin(frame / (18 + (i % 7) * 4) + i));
+          const sz = 2 + (i % 3);
+          return <div key={i} style={{ position: "absolute", left: x, top: y, width: sz, height: sz, borderRadius: "50%", background: "#FFFFFF", opacity: tw }} />;
+        })}
+        <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%)" }} />
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill style={{ backgroundColor: t.bg, overflow: "hidden" }}>
       <AbsoluteFill
@@ -294,8 +323,11 @@ export const Headline: React.FC<{ text: string; at?: number; size?: number; step
               display: "inline-block",
               opacity: p,
               translate: `0px ${(1 - p) * 30}px`,
-              color: hi ? t.hi : t.fg,
+              color: hi && t.name !== "noir" ? t.hi : t.fg,
               marginRight: size * 0.26,
+              ...(hi && t.name === "noir"
+                ? { fontFamily: SERIF, fontStyle: "italic", fontWeight: 400, fontSize: size * 1.12, letterSpacing: 0 }
+                : {}),
             }}
           >
             {clean}
@@ -331,7 +363,10 @@ export const Shell: React.FC<{
   stickers?: Sticker[];
   first?: boolean;
   align?: "center" | "start";
-}> = ({ dur, children, stickers, first, align = "center" }) => {
+  ghost?: string;
+  cap?: string;
+  padTop?: number;
+}> = ({ dur, children, stickers, first, align = "center", ghost, cap, padTop = 220 }) => {
   const frame = useCurrentFrame();
   const total = f(dur);
   const opacity = first
@@ -341,9 +376,10 @@ export const Shell: React.FC<{
   return (
     <SceneDur.Provider value={dur}>
       <AbsoluteFill style={{ opacity, scale: drift }}>
+        {ghost ? <Ghost word={ghost} dur={dur} /> : null}
         <AbsoluteFill
           style={{
-            padding: "220px 150px 440px 90px",
+            padding: `${padTop}px 150px ${cap ? 560 : 440}px 90px`,
             display: "flex",
             flexDirection: "column",
             justifyContent: align === "center" ? "center" : "flex-start",
@@ -353,6 +389,7 @@ export const Shell: React.FC<{
           {children}
         </AbsoluteFill>
         <StickerLayer stickers={stickers} instant={first} />
+        {cap ? <Caption text={cap} dur={dur} /> : null}
       </AbsoluteFill>
       {first ? null : <Sfx name="whoosh" at={0} volume={0.3} />}
     </SceneDur.Provider>
@@ -377,3 +414,103 @@ export const Top: React.FC<{ kicker?: string; head?: string; sub?: string; size?
     {sub ? <Sub at={instant ? 0.3 : 0.7}>{sub}</Sub> : null}
   </>
 );
+
+/** Huge outline word drifting behind the scene (noir style). */
+export const Ghost: React.FC<{ word: string; dur: number }> = ({ word, dur }) => {
+  const frame = useCurrentFrame();
+  const t = useTheme();
+  const x = interpolate(frame, [0, f(dur)], [40, -40]);
+  const o = interpolate(frame, [0, 8], [0, 1], { extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: o }}>
+      <div
+        style={{
+          fontFamily: HEAD,
+          fontWeight: 800,
+          fontSize: 400,
+          letterSpacing: 6,
+          color: "transparent",
+          WebkitTextStroke: `3px ${t.name === "light" ? "rgba(10,26,63,0.10)" : "rgba(255,255,255,0.11)"}`,
+          translate: `${x}px 60px`,
+          whiteSpace: "nowrap",
+        }}
+      >
+        {word}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/** Karaoke caption: every word shown, the one being spoken sits on a highlight box. */
+export const Caption: React.FC<{ text: string; dur: number }> = ({ text, dur }) => {
+  const frame = useCurrentFrame();
+  const t = useTheme();
+  const words = text.split(" ").filter(Boolean);
+  const start = f(0.15);
+  const end = Math.max(start + 10, f(dur) - f(0.35));
+  const idx = Math.min(words.length - 1, Math.floor(interpolate(frame, [start, end], [0, words.length], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })));
+  const rise = useRise(0, 16, 8);
+  return (
+    <div style={{ ...rise, position: "absolute", left: 90, right: 150, top: 1380, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "8px 14px" }}>
+      {words.map((w, i) => {
+        const on = i === idx;
+        return (
+          <span
+            key={i}
+            style={{
+              fontFamily: HEAD,
+              fontWeight: 800,
+              fontSize: 54,
+              lineHeight: 1.2,
+              padding: "2px 14px",
+              borderRadius: 12,
+              background: on ? (t.name === "light" ? NAVY : "#F4F1EA") : "transparent",
+              color: on ? (t.name === "light" ? "#FFFFFF" : "#14130F") : i < idx ? t.fg : t.muted,
+            }}
+          >
+            {w}
+          </span>
+        );
+      })}
+    </div>
+  );
+};
+
+/** Top bar: handle on the left, a progress meter on the right that fills as the checklist goes. */
+export const TopBar: React.FC<{ label: string; total: number; steps: { from: number; step: number }[]; handle?: string }> = ({
+  label,
+  total,
+  steps,
+  handle = "barkati.in",
+}) => {
+  const frame = useCurrentFrame();
+  const t = useTheme();
+  let prev = 0;
+  let cur = 0;
+  let from = 0;
+  for (const s of steps) {
+    if (frame >= s.from) {
+      prev = cur;
+      cur = s.step;
+      from = s.from;
+    }
+  }
+  const p = interpolate(frame, [from, from + 14], [prev, cur], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
+  return (
+    <div style={{ position: "absolute", top: 230, left: 90, right: 150, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 14, fontFamily: MONO, fontWeight: 700, fontSize: 30, color: t.muted, letterSpacing: 3 }}>
+        <div style={{ width: 14, height: 14, borderRadius: 7, background: CYAN }} />
+        {handle.toUpperCase()}
+      </div>
+      <div style={{ display: "flex", alignItems: "center", gap: 16, background: t.card, border: `2px solid ${t.cardBorder}`, borderRadius: 999, padding: "12px 24px" }}>
+        <div style={{ fontFamily: MONO, fontWeight: 700, fontSize: 24, color: t.fg, letterSpacing: 2 }}>{label}</div>
+        <div style={{ width: 140, height: 12, borderRadius: 6, background: t.cardBorder, overflow: "hidden" }}>
+          <div style={{ width: `${(p / total) * 100}%`, height: "100%", background: CYAN, borderRadius: 6 }} />
+        </div>
+        <div style={{ fontFamily: MONO, fontWeight: 700, fontSize: 26, color: t.fg }}>
+          {Math.round(p)}/{total}
+        </div>
+      </div>
+    </div>
+  );
+};

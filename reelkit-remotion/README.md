@@ -31,7 +31,7 @@ Never commit `node_modules/`, `work/`, `out/` or the voice files copied into `pu
 
 ## Props format
 ```json
-{ "theme": "navy" | "light", "voice": "vo1_enh.wav" (set by fit.mjs), "scenes": [ … ] }
+{ "theme": "navy" | "light" | "noir", "meter"?: {"label","total"}, "handle"?: "barkati.in", "voice": "vo1_enh.wav" (set by fit.mjs), "scenes": [ … ] }
 ```
 Every scene: `type`, `dur` (seconds), `vo`, optional `kicker` ("// CATERERS"), `head` (wrap words in
 `*stars*` for cyan), `sub`, `stickers` (`[{illus, x, y, size≈260–340, at?, anim: pop|drop|drive|float|wiggle, rot?}]`,
@@ -52,6 +52,7 @@ reveals across the scene, which keeps them inside the scene after fit.mjs change
 | `illus` | `items[{illus,label?,bad?,cross?}]` (1–4) | business types, loss moments (`cross` = second the red ✗ lands) |
 | `offer` | `title`, `sub?`, `ribbon?`, `illus?` | khushkhabri: free homepage demo / founding offer (real offers only) |
 | `plan` | `name`, `price`, `note?`, `badge?`, `items[]` | plan days only, exact prices from claude/local-brand.md |
+| `feature` | `num?` ("02"), `screen{badge?,illus?,title?,button?}` (badge "● REC {t}" shows a running timer), `cards[{label,text,illus?,side:left|right}]` (1–2) | numbered checklist items, noir style: number + headline, phone with a live screen, floating cards |
 | `cta` | `head?`, `line?` | LAST scene, always. Types "DEMO" in a comment box, logo + barkati.in |
 
 Illustrations: shop, store, hall, plate, sweets, truck, box, car, plane, building, sofa, ring, pin, phone,
@@ -67,3 +68,10 @@ megaphone, board, tick, cross. On the navy theme they sit on white tiles automat
 
 Examples: `examples/common-website.json` (navy, 6 scenes) and `examples/types-showcase.json` (light, every type).
 Studio preview (optional): `npx remotion studio --no-open`.
+
+## Noir style (from 3 Nov 2026)
+Dark charcoal canvas with drifting star dots and a vignette, inspired by a reel Raza liked. Use `"theme": "noir"`:
+- `*starred*` words in headlines become a serif italic (Instrument Serif) instead of cyan; numbers and accents stay cyan.
+- Top bar (handle + progress meter) appears automatically (default label "WEBSITE CHECKLIST", total 5; set `meter` to change it). Each scene can set `meterStep` — the meter fills to that step when the scene starts. Keep it honest: it counts checklist items, never a made-up "lead chance %".
+- Any scene (any theme) can set `ghost` (huge outline word drifting behind it) and `cap` (karaoke caption at the bottom in Roman Hinglish; the word being spoken sits on a highlight box). With `cap`, content stays above y≈1360.
+- Best used for "5 cheezein" checklists: hook → 3–5 `feature` scenes (meterStep 1…n) → `phone` sample design → `cta`. Example: `examples/noir-interior.json`.

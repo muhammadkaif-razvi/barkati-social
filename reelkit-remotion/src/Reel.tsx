@@ -4,7 +4,8 @@ import { AbsoluteFill, CalculateMetadataFunction, Series, staticFile } from "rem
 import { Compare, Hook, List, Search } from "./scenes/Basic";
 import { Cta, Offer, Plan, Stat } from "./scenes/Cards";
 import { Chat, Flow, IllusScene, Phone, Versus } from "./scenes/Mockups";
-import { Background, f, Shell, THEMES, ThemeCtx } from "./theme";
+import { Feature } from "./scenes/Feature";
+import { Background, f, Shell, THEMES, ThemeCtx, TopBar } from "./theme";
 import type { ReelProps, Scene } from "./types";
 
 export const reelFrames = (p: ReelProps) => p.scenes.reduce((a, s) => a + f(s.dur), 0);
@@ -41,12 +42,21 @@ const Body: React.FC<{ s: Scene }> = ({ s }) => {
       return <Plan s={s} />;
     case "cta":
       return <Cta s={s} />;
+    case "feature":
+      return <Feature s={s} />;
   }
 };
 
 export const Reel: React.FC<ReelProps> = (props) => {
   const theme = THEMES[props.theme ?? "navy"];
   const total = reelFrames(props);
+  const bar = props.meter ?? (props.theme === "noir" ? { label: "WEBSITE CHECKLIST", total: 5 } : undefined);
+  const steps: { from: number; step: number }[] = [];
+  let acc = 0;
+  for (const s of props.scenes) {
+    if (s.meterStep != null) steps.push({ from: acc, step: s.meterStep });
+    acc += f(s.dur);
+  }
   return (
     <ThemeCtx.Provider value={theme}>
       <AbsoluteFill>
@@ -54,12 +64,13 @@ export const Reel: React.FC<ReelProps> = (props) => {
         <Series>
           {props.scenes.map((s, i) => (
             <Series.Sequence key={i} name={`${i + 1} ${s.type}`} durationInFrames={f(s.dur)}>
-              <Shell dur={s.dur} stickers={s.stickers} first={i === 0}>
+              <Shell dur={s.dur} stickers={s.stickers} first={i === 0} ghost={s.ghost} cap={s.cap} padTop={bar ? 330 : 220}>
                 <Body s={s} />
               </Shell>
             </Series.Sequence>
           ))}
         </Series>
+        {bar ? <TopBar label={bar.label} total={bar.total} steps={steps} handle={props.handle} /> : null}
         {props.voice ? <Audio src={staticFile(props.voice)} name="Voiceover" /> : null}
       </AbsoluteFill>
     </ThemeCtx.Provider>
