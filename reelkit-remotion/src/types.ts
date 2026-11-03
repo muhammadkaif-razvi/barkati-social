@@ -52,7 +52,7 @@ export type Scene =
     })
   | (Base & { type: "offer"; title: string; ribbon?: string; illus?: string })
   | (Base & { type: "plan"; name: string; price: string; note?: string; badge?: string; items: string[] })
-  | (Base & { type: "cta"; line?: string })
+  | (Base & { type: "cta"; line?: string; dm?: string })
   | (Base & {
       type: "feature";
       num?: string; // "01" … shown before the headline

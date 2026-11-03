@@ -373,9 +373,14 @@ export const Shell: React.FC<{
     ? interpolate(frame, [total - 5, total], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })
     : interpolate(frame, [0, 5, total - 5, total], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const drift = interpolate(frame, [0, total], [1, 1.025]);
+  // push + blur between scenes (STYLE.md): enter from the right, leave to the left
+  const push = first
+    ? interpolate(frame, [total - 6, total], [0, -70], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })
+    : interpolate(frame, [0, 6, total - 6, total], [70, 0, 0, -70], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const blur = Math.abs(push) / 6;
   return (
     <SceneDur.Provider value={dur}>
-      <AbsoluteFill style={{ opacity, scale: drift }}>
+      <AbsoluteFill style={{ opacity, scale: drift, translate: `${push}px 0px`, filter: blur > 0.2 ? `blur(${blur}px)` : undefined }}>
         {ghost ? <Ghost word={ghost} dur={dur} /> : null}
         <AbsoluteFill
           style={{
@@ -449,10 +454,17 @@ export const Caption: React.FC<{ text: string; dur: number }> = ({ text, dur }) 
   const start = f(0.15);
   const end = Math.max(start + 10, f(dur) - f(0.35));
   const idx = Math.min(words.length - 1, Math.floor(interpolate(frame, [start, end], [0, words.length], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })));
+  // 3 words at a time (STYLE.md): the spoken word sits on a highlight box, the rest are dim.
+  const size = Math.ceil(words.length / Math.ceil(words.length / 3)); // balanced: no lonely last word
+  const chunk = Math.floor(idx / size);
+  const shown = words.slice(chunk * size, chunk * size + size);
+  const chunkStart = start + ((end - start) * chunk * size) / words.length;
+  const pop = interpolate(frame, [chunkStart, chunkStart + 5], [0.85, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const rise = useRise(0, 16, 8);
   return (
-    <div style={{ ...rise, position: "absolute", left: 90, right: 150, top: 1380, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "8px 14px" }}>
-      {words.map((w, i) => {
+    <div style={{ ...rise, position: "absolute", left: 90, right: 150, top: 1400, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "8px 16px", scale: pop }}>
+      {shown.map((w, j) => {
+        const i = chunk * size + j;
         const on = i === idx;
         return (
           <span
@@ -460,12 +472,12 @@ export const Caption: React.FC<{ text: string; dur: number }> = ({ text, dur }) 
             style={{
               fontFamily: HEAD,
               fontWeight: 800,
-              fontSize: 54,
-              lineHeight: 1.2,
-              padding: "2px 14px",
-              borderRadius: 12,
-              background: on ? (t.name === "light" ? NAVY : "#F4F1EA") : "transparent",
-              color: on ? (t.name === "light" ? "#FFFFFF" : "#14130F") : i < idx ? t.fg : t.muted,
+              fontSize: 68,
+              lineHeight: 1.15,
+              padding: "4px 16px",
+              borderRadius: 14,
+              background: on ? (t.name === "light" ? NAVY : CYAN) : "transparent",
+              color: on ? (t.name === "light" ? "#FFFFFF" : "#0A1A3F") : i < idx ? t.fg : t.muted,
             }}
           >
             {w}

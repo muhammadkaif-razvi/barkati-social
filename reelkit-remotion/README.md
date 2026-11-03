@@ -1,5 +1,7 @@
 # BARKATI reel kit — Remotion (from 30 Oct 2026)
 
+> **Look and pacing rules: see [STYLE.md](STYLE.md). Use `"theme": "noir"` for all BARKATI reels.**
+
 All BARKATI daily reels are made with this kit; the old `reelkit/` (story.html) is kept only for reference.
 Each reel is ONE JSON props file; Remotion renders it at 1080×1920, 30 fps. Navy #0A1A3F + cyan #00C2FF,
 Manrope / JetBrains Mono / Inter (fonts are committed in `public/fonts`), the same flat illustrations as the

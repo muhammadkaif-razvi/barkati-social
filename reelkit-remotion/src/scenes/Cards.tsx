@@ -8,7 +8,7 @@ import {
   f,
   Headline,
   Illus,
-  Logo,
+  HEAD,
   MONO,
   NAVY,
   Sfx,
@@ -153,10 +153,28 @@ export const Cta: React.FC<{ s: S<"cta"> }> = ({ s }) => {
           </>
         )}
       </div>
-      <div style={{ ...logo, marginTop: 40, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
-        <Logo scale={0.9} />
-        <div style={{ fontFamily: MONO, fontWeight: 500, fontSize: 40, color: t.hi }}>barkati.in</div>
+      <div
+        style={{
+          ...logo,
+          marginTop: 24,
+          alignSelf: "center",
+          width: 680,
+          display: "flex",
+          alignItems: "center",
+          gap: 26,
+          background: "#FBF8F1",
+          borderRadius: 30,
+          padding: "26px 30px",
+          boxShadow: "0 24px 60px rgba(0,0,0,0.4)",
+        }}
+      >
+        <div style={{ width: 84, height: 84, borderRadius: 42, background: NAVY, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: HEAD, fontWeight: 800, fontSize: 44, color: CYAN }}>B</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+          <div style={{ fontFamily: MONO, fontWeight: 700, fontSize: 24, letterSpacing: 2, color: "#0E7FB0" }}>BARKATI · DM</div>
+          <div style={{ fontFamily: BODY, fontWeight: 700, fontSize: 36, color: NAVY, lineHeight: 1.2 }}>{s.dm ?? "Aapka free homepage demo"}</div>
+        </div>
       </div>
+      <Sfx name="pop" at={Math.min(demoAt + 1.0, dur - 1.2)} volume={0.35} />
       {[0, 1, 2, 3].map((i) => (
         <Sfx key={i} name="type" at={demoAt - 0.27 + i * 0.1} volume={0.35} />
       ))}
