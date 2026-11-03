@@ -29,7 +29,7 @@ Credits used today: 762 (transcription 0).
 | 10.5–14 s | offer | BARKATI · No monthly fee · Domain + code aapke naam · Homepage demo pehle free | बरकती में कोई monthly fee नहीं। Domain आपके नाम पर। |
 | 14–17.6 s | cta | "Homepage demo free" · types DEMO · barkati.in | Free demo के लिए डेमो comment कीजिए। |
 
-Voice script: 255 characters. Buffer: see report.
+Voice script: 255 characters. Buffer: scheduled (IG 6ae9d902beaa26e1a08fb56a, FB 6ae9d905beaa26e1a08fb6a5, 13:00 IST).
 
 ## Reel 2 · 20:00 IST · Sample work · Function hall (Shehnai Banquet Hall, sample)
 - Angle: Sample work (Wed reel #2), barkati.in sample business Shehnai Banquet Hall, labelled "Sample design". Content type: showcase, 25.4 s. Archetype: quiz/poll ("2 tarah · aapki kaunsi?").
@@ -53,3 +53,4 @@ Voice script: 255 characters. Buffer: see report.
 | 21.9–25.4 s | cta | "Hall wale dost ko bhejiye" · types DEMO · barkati.in | Hall वाले दोस्त को भेजिए, और डेमो comment कीजिए। |
 
 Voice script: 397 characters.
+Buffer: scheduled (IG 6ae9d9092d879310e0cb716c, FB 6ae9d90d2d879310e0cb724b, 20:00 IST). Repo commit 1faa7d5.
