@@ -53,4 +53,4 @@ Voice script: 255 characters. Buffer: scheduled (IG 6ae9d902beaa26e1a08fb56a, FB
 | 21.9–25.4 s | cta | "Hall wale dost ko bhejiye" · types DEMO · barkati.in | Hall वाले दोस्त को भेजिए, और डेमो comment कीजिए। |
 
 Voice script: 397 characters.
-Buffer: scheduled (IG 6ae9d9092d879310e0cb716c, FB 6ae9d90d2d879310e0cb724b, 20:00 IST). Repo commit 1faa7d5.
+Buffer: scheduled (IG 6ae9d9092d879310e0cb716c, FB 6ae9d90d2d879310e0cb724b, 20:00 IST). Repo commit 1faa7d5; reel 1 re-rendered after the site check, commit 41cc7ba, Buffer posts updated to the new video + caption.
