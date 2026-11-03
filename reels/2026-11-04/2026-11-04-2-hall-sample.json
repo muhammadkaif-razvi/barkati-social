@@ -1,0 +1,126 @@
+{
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3,
+   "kicker": "// FUNCTION HALLS",
+   "head": "Hall ki website *2 tarah* ki hoti hai",
+   "pill": "Aapki kaunsi?",
+   "vo": "Function hall की website दो तरह की होती है। आपकी कौन सी?",
+   "stickers": [
+    {
+     "illus": "hall",
+     "x": 280,
+     "y": 1300,
+     "size": 300,
+     "anim": "pop",
+     "rot": -5
+    },
+    {
+     "illus": "website",
+     "x": 780,
+     "y": 1300,
+     "size": 280,
+     "anim": "drop",
+     "rot": 4
+    }
+   ]
+  },
+  {
+   "type": "illus",
+   "dur": 3.8,
+   "head": "Type 1: *Photo album*",
+   "items": [
+    {
+     "illus": "website",
+     "label": "Sundar photos"
+    },
+    {
+     "illus": "rupee",
+     "label": "Rate nahi",
+     "bad": true,
+     "cross": 1.4
+    },
+    {
+     "illus": "phone",
+     "label": "Button nahi",
+     "bad": true,
+     "cross": 2.2
+    }
+   ],
+   "vo": "पहली: सिर्फ़ photos वाली। Rate नहीं, button नहीं।"
+  },
+  {
+   "type": "flow",
+   "dur": 3.2,
+   "head": "Customer *agla hall* khol leta hai",
+   "steps": [
+    {
+     "illus": "search",
+     "label": "Website khola"
+    },
+    {
+     "illus": "rupee",
+     "label": "Rate? Pata nahi"
+    },
+    {
+     "illus": "hall",
+     "label": "Agla hall"
+    }
+   ],
+   "vo": "Customer पूछे किससे? वो अगला hall खोल लेता है।"
+  },
+  {
+   "type": "list",
+   "dur": 4.2,
+   "head": "Type 2: *Booking wali*",
+   "items": [
+    {
+     "illus": "rupee",
+     "title": "Starting rate"
+    },
+    {
+     "illus": "calendar",
+     "title": "Enquiry form"
+    },
+    {
+     "illus": "pin",
+     "title": "Map + landmark"
+    }
+   ],
+   "vo": "अब असली फ़र्क। दूसरी: booking वाली। Starting rate, enquiry form, और map।"
+  },
+  {
+   "type": "phone",
+   "dur": 4.2,
+   "head": "*WhatsApp* pehli screen pe",
+   "site": {
+    "name": "Shehnai Banquet Hall",
+    "tagline": "Rates · Photos · Map",
+    "buttons": [
+     "Call",
+     "WhatsApp"
+    ],
+    "label": "Sample design"
+   },
+   "vo": "सबसे ज़रूरी: WhatsApp button पहली screen पर। ये बरकती का sample design है।"
+  },
+  {
+   "type": "offer",
+   "dur": 3.5,
+   "title": "Homepage demo free",
+   "sub": "Pasand aaye tabhi payment · No monthly fee",
+   "ribbon": "Khushkhabri",
+   "illus": "gift",
+   "vo": "Homepage demo पहले free। पसंद आए, तभी payment।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.5,
+   "head": "Hall wale *dost ko* bhejiye",
+   "line": "barkati.in",
+   "vo": "Hall वाले दोस्त को भेजिए, और डेमो comment कीजिए।"
+  }
+ ]
+}

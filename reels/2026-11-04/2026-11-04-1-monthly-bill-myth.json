@@ -1,0 +1,84 @@
+{
+ "theme": "navy",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3,
+   "kicker": "// MYTH BUST",
+   "head": "Website matlab *har mahine* ka bill?",
+   "pill": "Myth ya sach?",
+   "vo": "क्या website मतलब हर महीने का bill?",
+   "stickers": [
+    {
+     "illus": "shop",
+     "x": 280,
+     "y": 1300,
+     "size": 290,
+     "anim": "pop",
+     "rot": -5
+    },
+    {
+     "illus": "wallet",
+     "x": 780,
+     "y": 1300,
+     "size": 280,
+     "anim": "drop",
+     "rot": 4
+    }
+   ]
+  },
+  {
+   "type": "versus",
+   "dur": 3.5,
+   "head": "*Soch* vs sach",
+   "left": {
+    "title": "Soch",
+    "items": [
+     "Har mahine fees",
+     "Fees band, site band"
+    ]
+   },
+   "right": {
+    "title": "Sach",
+    "items": [
+     "Website ek baar banti hai",
+     "Saal mein sirf domain renewal"
+    ]
+   },
+   "vo": "ज़रूरी नहीं। Website एक बार बनती है। हर साल बस domain renewal।"
+  },
+  {
+   "type": "list",
+   "dur": 4,
+   "head": "Banwane se pehle *2 sawaal*",
+   "sub": "Save kar lijiye",
+   "items": [
+    {
+     "illus": "wallet",
+     "title": "Har mahine kya dena hoga?"
+    },
+    {
+     "illus": "key",
+     "title": "Domain kiske naam pe?"
+    }
+   ],
+   "vo": "बनवाने से पहले पूछिए: हर महीने क्या देना होगा? Domain किसके नाम पर?"
+  },
+  {
+   "type": "offer",
+   "dur": 3.5,
+   "title": "No monthly fee",
+   "sub": "Domain + code aapke naam · Homepage demo pehle free",
+   "ribbon": "BARKATI",
+   "illus": "key",
+   "vo": "बरकती में कोई monthly fee नहीं। Domain आपके नाम पर।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.5,
+   "head": "Homepage demo *free*",
+   "line": "barkati.in",
+   "vo": "Free demo के लिए डेमो comment कीजिए।"
+  }
+ ]
+}
