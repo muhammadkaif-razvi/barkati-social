@@ -1,0 +1,11 @@
+{ "theme": "light", "scenes": [
+ { "type": "hook", "dur": 3, "kicker": "// BARKATI · WEBSITES", "head": "Pehle website *dekhiye*, phir payment", "pill": "Free homepage demo",
+   "vo": "पहले अपनी website देखिए, फिर payment कीजिए।",
+   "stickers": [ { "illus": "website", "x": 270, "y": 1360, "size": 280, "anim": "pop", "rot": -5 }, { "illus": "gift", "x": 790, "y": 1360, "size": 280, "anim": "drop" } ] },
+ { "type": "flow", "dur": 4, "head": "Kaise *kaam* karta hai",
+   "steps": [ { "illus": "chat", "label": "WhatsApp pe DEMO" }, { "illus": "website", "label": "Free homepage demo" }, { "illus": "tick", "label": "Pasand aaye to aage" } ],
+   "vo": "WhatsApp पर डेमो भेजिए। हम आपका homepage free बनाकर दिखाते हैं।" },
+ { "type": "offer", "dur": 4, "ribbon": "Khushkhabri", "title": "Plans from ₹4,999", "sub": "One-time · No monthly fee · Domain aapke naam", "illus": "rupee",
+   "vo": "Plans चार हज़ार नौ सौ निन्यानवे रुपये से। कोई monthly fee नहीं।" },
+ { "type": "cta", "dur": 3.5, "head": "Apna demo *maangiye*", "line": "Neeche button · WhatsApp pe DEMO",
+   "vo": "नीचे button दबाइए और डेमो लिखिए।" } ] }

@@ -1,0 +1,12 @@
+{ "theme": "navy", "scenes": [
+ { "type": "hook", "dur": 3, "kicker": "// LOCAL BUSINESS OWNERS", "head": "Website nahi? *Customer* doosre ke paas", "pill": "Sach dekhiye",
+   "vo": "Website नहीं है? तो customer दूसरे के पास जा रहा है।",
+   "stickers": [ { "illus": "shop", "x": 270, "y": 1360, "size": 280, "anim": "pop", "rot": -5 }, { "illus": "phone", "x": 790, "y": 1360, "size": 280, "anim": "drop" } ] },
+ { "type": "stat", "dur": 3.5, "head": "Aapke customer *online* hain", "value": 958, "suffix": " million", "label": "active internet users in India", "source": "IAMAI report, Jan 2026",
+   "vo": "भारत में नौ सौ अट्ठावन मिलियन लोग online हैं।" },
+ { "type": "compare", "dur": 3.5, "head": "Pehle *search*, phir call",
+   "good": { "title": "Doosra Business", "url": "doosrabusiness.in", "badge": "Rate + photos + WhatsApp" },
+   "bad": { "title": "Your Business", "url": "sirf number", "badge": "Website nahi" },
+   "vo": "वो पहले search करते हैं, फिर call।" },
+ { "type": "cta", "dur": 4.5, "head": "WhatsApp pe *DEMO* bhejiye", "line": "Free homepage demo · barkati.in",
+   "vo": "बरकती से free homepage demo लीजिए। नीचे button दबाकर डेमो भेजिए।" } ] }

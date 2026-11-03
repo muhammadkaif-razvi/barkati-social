@@ -1,0 +1,12 @@
+{ "theme": "navy", "scenes": [
+ { "type": "hook", "dur": 3, "kicker": "// HALLS · CATERERS · SHOWROOMS", "head": "Aapki website *aisi* dikh sakti hai", "pill": "Sample design",
+   "vo": "आपके business की website ऐसी दिख सकती है।",
+   "stickers": [ { "illus": "hall", "x": 270, "y": 1360, "size": 280, "anim": "pop", "rot": -5 }, { "illus": "plate", "x": 790, "y": 1360, "size": 280, "anim": "drop" } ] },
+ { "type": "phone", "dur": 4.5, "head": "Sab kuch *pehli screen* pe",
+   "site": { "name": "Shehnai Banquet Hall", "tagline": "Rates · Photos · Map", "buttons": ["Call", "WhatsApp"], "label": "Sample design" },
+   "vo": "Rate, photos, map, और call, WhatsApp button, सब पहली screen पर।" },
+ { "type": "illus", "dur": 3.5, "head": "Har *local business* ke liye",
+   "items": [ { "illus": "hall", "label": "Function hall" }, { "illus": "plate", "label": "Caterer" }, { "illus": "sofa", "label": "Showroom" }, { "illus": "truck", "label": "Packers" } ],
+   "vo": "Hall, caterer, showroom या packers, सबके लिए।" },
+ { "type": "cta", "dur": 4.5, "head": "Apna *free demo* lijiye", "line": "Sample design · client nahi · barkati.in",
+   "vo": "ये sample design है। अपना free demo चाहिए? नीचे button दबाकर डेमो भेजिए।" } ] }
