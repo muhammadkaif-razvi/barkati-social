@@ -3,7 +3,7 @@
  "scenes": [
   {
    "type": "hook",
-   "dur": 3,
+   "dur": 3.75,
    "kicker": "// FUNCTION HALLS",
    "head": "Hall ki website *2 tarah* ki hoti hai",
    "pill": "Aapki kaunsi?",
@@ -29,7 +29,7 @@
   },
   {
    "type": "illus",
-   "dur": 3.8,
+   "dur": 4.85,
    "head": "Type 1: *Photo album*",
    "items": [
     {
@@ -53,7 +53,7 @@
   },
   {
    "type": "flow",
-   "dur": 3.2,
+   "dur": 3.75,
    "head": "Customer *agla hall* khol leta hai",
    "steps": [
     {
@@ -73,7 +73,7 @@
   },
   {
    "type": "list",
-   "dur": 4.2,
+   "dur": 6.6,
    "head": "Type 2: *Booking wali*",
    "items": [
     {
@@ -93,7 +93,7 @@
   },
   {
    "type": "phone",
-   "dur": 4.2,
+   "dur": 5.7,
    "head": "*WhatsApp* pehli screen pe",
    "site": {
     "name": "Shehnai Banquet Hall",
@@ -108,7 +108,7 @@
   },
   {
    "type": "offer",
-   "dur": 3.5,
+   "dur": 5.05,
    "title": "Homepage demo free",
    "sub": "Pasand aaye tabhi payment · No monthly fee",
    "ribbon": "Khushkhabri",
@@ -117,10 +117,11 @@
   },
   {
    "type": "cta",
-   "dur": 3.5,
+   "dur": 4.4,
    "head": "Hall wale *dost ko* bhejiye",
    "line": "barkati.in",
    "vo": "Hall वाले दोस्त को भेजिए, और डेमो comment कीजिए।"
   }
- ]
+ ],
+ "voice": "vo2_enh.wav"
 }

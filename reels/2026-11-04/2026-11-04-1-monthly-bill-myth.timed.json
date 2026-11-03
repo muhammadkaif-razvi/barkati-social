@@ -3,7 +3,7 @@
  "scenes": [
   {
    "type": "hook",
-   "dur": 3,
+   "dur": 2.7,
    "kicker": "// MYTH BUST",
    "head": "Website matlab *har mahine* ka bill?",
    "pill": "Myth ya sach?",
@@ -29,7 +29,7 @@
   },
   {
    "type": "versus",
-   "dur": 3.5,
+   "dur": 3.6,
    "head": "*Soch* vs sach",
    "left": {
     "title": "Soch",
@@ -45,11 +45,11 @@
      "Domain + hosting seedha provider ko"
     ]
    },
-   "vo": "ज़रूरी नहीं। Website एक बार बनती है। Domain और hosting सीधे provider को।"
+   "vo": "ज़रूरी नहीं। Website एक बार बनती है।"
   },
   {
    "type": "list",
-   "dur": 4,
+   "dur": 4.9,
    "head": "Banwane se pehle *2 sawaal*",
    "sub": "Save kar lijiye",
    "items": [
@@ -66,7 +66,7 @@
   },
   {
    "type": "offer",
-   "dur": 3.5,
+   "dur": 5.1,
    "title": "No monthly fee",
    "sub": "Domain + code aapke naam · Homepage demo pehle free",
    "ribbon": "BARKATI",
@@ -75,10 +75,11 @@
   },
   {
    "type": "cta",
-   "dur": 3.5,
+   "dur": 3.7,
    "head": "Homepage demo *free*",
    "line": "barkati.in",
    "vo": "Free demo के लिए डेमो comment कीजिए।"
   }
- ]
+ ],
+ "voice": "vo1_enh.wav"
 }
