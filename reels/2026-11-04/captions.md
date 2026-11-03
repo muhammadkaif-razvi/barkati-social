@@ -5,7 +5,7 @@
 Before anyone builds your website, ask what you will pay every month.
 
 Many owners think a website means a monthly bill. It doesn't have to.
-A website is built once. The only yearly cost is the domain renewal, and the domain should be in your name.
+A website is built once. Domain and hosting are paid straight to the provider, and the domain should be in your name.
 Ask these 2 questions first:
 1. What will I pay every month?
 2. Whose name is the domain in?
