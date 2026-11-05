@@ -7,7 +7,7 @@ A customer wanted to enquire. Then he saw ten boxes to fill.
 Quick tip for your website's enquiry form: keep only three questions.
 Name. Phone number. Date.
 Budget, address and the rest can wait for the call.
-Chhota form, zyada enquiry poori hoti hai.
+Chhota form bharna aasaan hota hai.
 
 Save this before you make or fix your form.
 

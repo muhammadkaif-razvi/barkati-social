@@ -59,3 +59,5 @@ Voice script: 249 characters.
 | 30.4–35.4 s | cta | "Showroom wale dost ko *bhejiye*" · types DEMO · DM card | किसी showroom वाले दोस्त को भेजिए, और डेमो comment कीजिए। |
 
 Voice script: 407 characters.
+
+Buffer: scheduled. Reel 1 13:00 IST: IG 6aec7d1b060b39980650068d, FB 6aec7d1be26be26f731f34a1. Reel 2 20:00 IST: IG 6aec7d1ce26be26f731f34ef, FB 6aec7d1d060b3998065006f5. Videos from repo commit 71c60dc.
