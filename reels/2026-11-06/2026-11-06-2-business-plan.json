@@ -1,0 +1,166 @@
+{
+ "theme": "noir",
+ "meter": {
+  "label": "BUSINESS PLAN",
+  "total": 3
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.98,
+   "kicker": "// BUSINESS PLAN",
+   "head": "Ek page kab *kam* padta hai?",
+   "pill": "Business plan",
+   "ghost": "PAGES",
+   "stickers": [
+    {
+     "illus": "hall",
+     "x": 560,
+     "y": 1240,
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "illus": "store",
+     "x": 800,
+     "y": 1240,
+     "size": 190,
+     "anim": "float"
+    }
+   ],
+   "cap": "Aapke business ko ek page kab kam padta hai?",
+   "vo": "आपके business के लिए एक page कब कम पड़ता है?"
+  },
+  {
+   "type": "illus",
+   "dur": 2.68,
+   "head": "Jab dikhane ko *bahut* ho",
+   "ghost": "MORE",
+   "items": [
+    {
+     "illus": "hall",
+     "label": "Hall"
+    },
+    {
+     "illus": "plate",
+     "label": "Restaurant"
+    },
+    {
+     "illus": "sofa",
+     "label": "Showroom"
+    }
+   ],
+   "cap": "Jab photos aur rates zyada hon",
+   "vo": "जब photos और rates ज़्यादा हों।"
+  },
+  {
+   "type": "feature",
+   "dur": 3.86,
+   "num": "01",
+   "head": "Photo *gallery*",
+   "ghost": "GALLERY",
+   "meterStep": 1,
+   "screen": {
+    "badge": "● GALLERY",
+    "illus": "hall",
+    "title": "40 photos tak",
+    "button": "Photos dekho"
+   },
+   "cards": [
+    {
+     "label": "Customer dekhta hai",
+     "text": "Hall, decor, khana",
+     "side": "left"
+    }
+   ],
+   "cap": "Pehla: photo gallery, 40 photos tak",
+   "vo": "पहला: photo gallery, चालीस photos तक।"
+  },
+  {
+   "type": "feature",
+   "dur": 3.1,
+   "num": "02",
+   "head": "Rates ka *page*",
+   "ghost": "RATES",
+   "meterStep": 2,
+   "screen": {
+    "badge": "● SERVICES & RATES",
+    "illus": "rupee",
+    "title": "Har service, uska rate",
+    "button": "Rates dekho"
+   },
+   "cards": [
+    {
+     "label": "Customer ka sawaal",
+     "text": "Rate kitna hai?",
+     "side": "left"
+    }
+   ],
+   "cap": "Doosra: services aur rates ka alag page",
+   "vo": "दूसरा: services और rates का अलग page।"
+  },
+  {
+   "type": "feature",
+   "dur": 5.08,
+   "num": "03",
+   "head": "Admin *aapke* haath",
+   "ghost": "ADMIN",
+   "meterStep": 3,
+   "screen": {
+    "badge": "● ADMIN",
+    "illus": "key",
+    "title": "Rate aur photo khud badlo",
+    "button": "Save"
+   },
+   "cards": [
+    {
+     "label": "Sabse zaroori",
+     "text": "Kisi ka intezaar nahi",
+     "illus": "clock",
+     "side": "left"
+    }
+   ],
+   "cap": "Teesri sabse zaroori: rates aur photos khud badlo",
+   "vo": "और तीसरी बात सबसे ज़रूरी: rates और photos आप ख़ुद बदल सकते हैं।"
+  },
+  {
+   "type": "plan",
+   "dur": 7.01,
+   "head": "Business *plan*",
+   "ghost": "₹9,999",
+   "name": "Business",
+   "price": "₹9,999",
+   "note": "One-time · No monthly fee",
+   "badge": "Most popular",
+   "items": [
+    "5 pages tak",
+    "Gallery: 40 photos",
+    "SEO har page pe",
+    "2 revision rounds"
+   ],
+   "cap": "Business plan: ₹9,999 ek baar, monthly fee nahi",
+   "vo": "बरकती का Business plan: नौ हज़ार नौ सौ निन्यानवे रुपये, एक बार। कोई monthly fee नहीं।"
+  },
+  {
+   "type": "offer",
+   "dur": 5.68,
+   "head": "Pehle *dekhiye*",
+   "ghost": "DEMO",
+   "title": "Homepage demo free",
+   "sub": "Pasand aaye tabhi payment",
+   "ribbon": "Khushkhabri",
+   "illus": "gift",
+   "cap": "Pehle homepage demo free, pasand aaye tabhi payment",
+   "vo": "पहले homepage demo free। पसंद आए, तभी payment।"
+  },
+  {
+   "type": "cta",
+   "dur": 5.01,
+   "head": "Showroom wale dost ko *bhejiye*",
+   "line": "Comment karo DEMO, homepage demo free",
+   "cap": "Dost ko bhejiye, aur DEMO comment kijiye",
+   "vo": "किसी showroom वाले दोस्त को भेजिए, और डेमो comment कीजिए।"
+  }
+ ],
+ "voice": "vo2_enh.wav"
+}

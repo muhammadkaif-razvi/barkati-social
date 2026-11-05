@@ -1,0 +1,109 @@
+{
+ "theme": "noir",
+ "meter": {
+  "label": "FORM CHECK",
+  "total": 3
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.7,
+   "kicker": "// QUICK TIP",
+   "head": "Enquiry form mein kitne *sawaal*?",
+   "pill": "Ginti kijiye",
+   "ghost": "FORM",
+   "stickers": [
+    {
+     "illus": "website",
+     "x": 560,
+     "y": 1240,
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "illus": "store",
+     "x": 800,
+     "y": 1240,
+     "size": 190,
+     "anim": "float"
+    }
+   ],
+   "cap": "Aapke enquiry form mein kitne sawaal hain?",
+   "vo": "आपके enquiry form में कितने सवाल हैं?"
+  },
+  {
+   "type": "versus",
+   "dur": 4.27,
+   "head": "Lamba form, *adhoori* enquiry",
+   "ghost": "LONG",
+   "meterStep": 1,
+   "left": {
+    "title": "10 sawaal",
+    "items": [
+     "Email, pata, budget…",
+     "Customer beech mein gaya"
+    ]
+   },
+   "right": {
+    "title": "3 sawaal",
+    "items": [
+     "Naam, number, date",
+     "10 second mein bhar diya"
+    ]
+   },
+   "cap": "Zyada sawaal, toh kai customer form chhod dete",
+   "vo": "ज़्यादा सवाल हों, तो कई customer form अधूरा छोड़ देते हैं।"
+  },
+  {
+   "type": "feature",
+   "dur": 5.66,
+   "num": "03",
+   "head": "Bas teen *sawaal*",
+   "ghost": "SAVE",
+   "meterStep": 3,
+   "screen": {
+    "badge": "● ENQUIRY FORM",
+    "illus": "calendar",
+    "title": "Naam · Number · Date",
+    "button": "Bhejiye"
+   },
+   "cards": [
+    {
+     "label": "Save kar lijiye",
+     "text": "Baaki baat call pe",
+     "illus": "phone",
+     "side": "left"
+    }
+   ],
+   "cap": "Bas teen rakhiye: naam, number aur date",
+   "vo": "बस तीन रखिए: नाम, number और date। Save कर लीजिए।"
+  },
+  {
+   "type": "phone",
+   "dur": 5.05,
+   "head": "Chhota *form*",
+   "ghost": "BARKATI",
+   "site": {
+    "name": "Your Business",
+    "tagline": "Enquiry 10 second mein",
+    "buttons": [
+     "Call karo",
+     "WhatsApp"
+    ],
+    "form": "Naam · Number · Date",
+    "label": "Sample design"
+   },
+   "cap": "BARKATI website: chhota form aur WhatsApp button",
+   "vo": "बरकती की website में छोटा form और WhatsApp button, दोनों होते हैं।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.5,
+   "head": "Homepage demo *free*",
+   "line": "Comment karo DEMO, homepage demo free",
+   "cap": "Free demo ke liye DEMO comment kijiye",
+   "vo": "Free demo के लिए डेमो comment कीजिए।"
+  }
+ ],
+ "voice": "vo1_enh.wav"
+}
