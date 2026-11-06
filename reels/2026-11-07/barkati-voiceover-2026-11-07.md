@@ -68,3 +68,7 @@ Quality score: Hook 22/25 · Content value + structure 22/25 · Caption & CTA 17
 CTA sentence: "किसी owner दोस्त को भेजिए, और अपने homepage के लिए डेमो comment कीजिए।"
 Pronunciation check (scribe_v1): all words match (बरकती, डेमो, तीस, payment, monthly fee, domain, code, homepage, provider, owner). Words fixed: none.
 Scene boundaries set by hand from the word timings (fit.mjs had put one cut on a sentence pause). Enhancement: yes. Final LUFS: -13.9 (ebur128). H.264 + AAC, 1080×1920, 32.4 s, 11.0 MB.
+
+---
+
+Buffer: scheduled (IG @barkati_in + FB Barkati): reel 1 on 7 Nov 13:00 IST (posts 6aedcd500b0f6e64a0bd09b8, 6aedcd50730edf821accc4c7), reel 2 on 7 Nov 20:00 IST (posts 6aedcd4fe45c1855cb3bce60, 6aedcd4ff6d00f3472b10d83). Video links pinned to commit 2842d6e.
