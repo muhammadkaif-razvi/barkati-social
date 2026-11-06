@@ -1,0 +1,109 @@
+{
+ "theme": "noir",
+ "meter": {
+  "label": "PEHLI SCREEN",
+  "total": 3
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.75,
+   "kicker": "// CUSTOMER KA FAISLA",
+   "head": "Website khuli. Customer *pehle* kya dekhta hai?",
+   "pill": "Scroll se pehle",
+   "ghost": "SCREEN",
+   "stickers": [
+    {
+     "illus": "phone",
+     "x": 560,
+     "y": 1240,
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "illus": "store",
+     "x": 800,
+     "y": 1240,
+     "size": 190,
+     "anim": "float"
+    }
+   ],
+   "cap": "Website khuli, customer pehle kya dekhta hai?",
+   "vo": "आपकी website खुली। customer पहले क्या देखता है?"
+  },
+  {
+   "type": "illus",
+   "dur": 4.25,
+   "head": "Sirf *Welcome* likha hai?",
+   "ghost": "BACK",
+   "meterStep": 0,
+   "items": [
+    {
+     "illus": "website",
+     "label": "Sirf \"Welcome\""
+    },
+    {
+     "illus": "phone",
+     "label": "Button neeche",
+     "bad": true,
+     "cross": 1.4
+    }
+   ],
+   "cap": "Sirf Welcome likha ho, toh customer back",
+   "vo": "पहली screen पर बस Welcome? तो customer back जा सकता है।"
+  },
+  {
+   "type": "list",
+   "dur": 6.05,
+   "head": "*Teen* jawab, pehli screen pe",
+   "ghost": "3",
+   "meterStep": 3,
+   "items": [
+    {
+     "illus": "shop",
+     "title": "Kya karte ho",
+     "sub": "Kaam ek line mein"
+    },
+    {
+     "illus": "pin",
+     "title": "Kahan ho",
+     "sub": "Area + map"
+    },
+    {
+     "illus": "chat",
+     "title": "Contact kaise",
+     "sub": "Call + WhatsApp"
+    }
+   ],
+   "cap": "Kya, kahan, aur contact kaise. Save kijiye",
+   "vo": "उसे तीन जवाब चाहिए: क्या करते हैं, कहाँ हैं, contact कैसे करें।"
+  },
+  {
+   "type": "phone",
+   "dur": 3.69,
+   "head": "BARKATI mein *aise*",
+   "ghost": "BARKATI",
+   "meterStep": 3,
+   "site": {
+    "name": "Your Business",
+    "tagline": "Kaam · Area · Contact",
+    "buttons": [
+     "Call karo",
+     "WhatsApp"
+    ],
+    "label": "Sample design"
+   },
+   "cap": "BARKATI mein ye teeno pehli screen pe",
+   "vo": "बरकती में हम ये तीनों पहली screen पर रखते हैं।"
+  },
+  {
+   "type": "cta",
+   "dur": 3.92,
+   "head": "Apna homepage *pehle* dekhiye",
+   "line": "Comment karo DEMO, homepage demo free",
+   "cap": "Free homepage demo: DEMO comment kijiye",
+   "vo": "Free demo के लिए डेमो comment कीजिए।"
+  }
+ ],
+ "voice": "vo1_trim.wav"
+}

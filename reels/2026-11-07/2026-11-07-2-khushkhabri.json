@@ -1,0 +1,151 @@
+{
+ "theme": "noir",
+ "meter": {
+  "label": "KHUSHKHABRI",
+  "total": 3
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.35,
+   "kicker": "// KHUSHKHABRI · OWNERS",
+   "head": "Paisa doon, *pasand* na aaye toh?",
+   "pill": "3 darr, 3 jawab",
+   "ghost": "DARR",
+   "stickers": [
+    {
+     "illus": "wallet",
+     "x": 560,
+     "y": 1240,
+     "size": 190,
+     "anim": "float"
+    },
+    {
+     "illus": "shop",
+     "x": 800,
+     "y": 1240,
+     "size": 190,
+     "anim": "float"
+    }
+   ],
+   "cap": "Paisa doon, aur website pasand na aaye toh?",
+   "vo": "पैसा दूँ, और website पसंद न आए तो?"
+  },
+  {
+   "type": "chat",
+   "dur": 4.46,
+   "head": "Ye darr *sahi* hai",
+   "title": "Aapke sawaal",
+   "ghost": "SAWAAL",
+   "meterStep": 0,
+   "messages": [
+    {
+     "from": "customer",
+     "text": "Pehle poora payment?"
+    },
+    {
+     "from": "customer",
+     "text": "Har mahine fee?"
+    },
+    {
+     "from": "customer",
+     "text": "Domain kiske naam?"
+    }
+   ],
+   "cap": "Payment, monthly fee, domain: teeno sawaal sahi",
+   "vo": "ये डर सही है। payment, monthly fee, और domain किसके नाम पर।"
+  },
+  {
+   "type": "feature",
+   "dur": 5.68,
+   "num": "01",
+   "head": "Demo *pehle*",
+   "ghost": "DEMO",
+   "meterStep": 1,
+   "screen": {
+    "badge": "● FREE DEMO",
+    "illus": "website",
+    "title": "Aapka homepage, pehle dekhiye",
+    "button": "Pasand aaya?"
+   },
+   "cards": [
+    {
+     "label": "Payment",
+     "text": "Pasand aaye tabhi",
+     "illus": "rupee",
+     "side": "right"
+    }
+   ],
+   "cap": "Pehle free homepage demo, pasand aaye tabhi payment",
+   "vo": "पहला: पहले free homepage demo. पसंद आए, तभी payment."
+  },
+  {
+   "type": "feature",
+   "dur": 5.55,
+   "num": "02",
+   "head": "Monthly fee *nahi*",
+   "ghost": "FEE",
+   "meterStep": 2,
+   "screen": {
+    "badge": "● ONE-TIME",
+    "illus": "wallet",
+    "title": "Ek baar ka price",
+    "button": "No monthly fee"
+   },
+   "cards": [
+    {
+     "label": "Domain",
+     "text": "Saalana, seedha provider ko",
+     "side": "left"
+    }
+   ],
+   "cap": "BARKATI ki monthly fee nahi, domain seedha provider ko",
+   "vo": "दूसरा: बरकती की कोई monthly fee नहीं। domain का सालाना खर्च सीधे provider को।"
+  },
+  {
+   "type": "feature",
+   "dur": 4.96,
+   "num": "03",
+   "head": "Domain + code *aapke* naam",
+   "ghost": "OWNER",
+   "meterStep": 3,
+   "screen": {
+    "badge": "● HANDOVER",
+    "illus": "key",
+    "title": "Domain aur code aapke naam",
+    "button": "Aapka hai"
+   },
+   "cards": [
+    {
+     "label": "Admin",
+     "text": "Rate, photos khud badlo",
+     "illus": "lock",
+     "side": "right"
+    }
+   ],
+   "cap": "Aur sabse zaroori: domain aur code aapke naam",
+   "vo": "और तीसरी बात सबसे ज़रूरी है: domain और code आपके नाम पर।"
+  },
+  {
+   "type": "offer",
+   "dur": 3.14,
+   "title": "Free homepage demo",
+   "sub": "30 din free chhote changes",
+   "ribbon": "KHUSHKHABRI",
+   "illus": "gift",
+   "ghost": "FREE",
+   "meterStep": 3,
+   "cap": "Saath mein 30 din free chhote changes",
+   "vo": "साथ में तीस दिन तक छोटे बदलाव free."
+  },
+  {
+   "type": "cta",
+   "dur": 6.2,
+   "head": "Owner dost ko *bhejiye*",
+   "line": "Comment karo DEMO, homepage demo free",
+   "cap": "Dost ko bhejiye, aur DEMO comment kijiye",
+   "vo": "किसी owner दोस्त को भेजिए, और अपने homepage के लिए डेमो comment कीजिए।"
+  }
+ ],
+ "voice": "vo2_enh.wav"
+}
