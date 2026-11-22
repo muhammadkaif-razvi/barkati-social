@@ -1,0 +1,123 @@
+{
+ "items": [
+  {
+   "file": "post-mon",
+   "format": "post",
+   "layout": "list",
+   "marker": "check",
+   "tag": "Website tip",
+   "title": "Name your services the way *customers search*",
+   "items": [
+    {
+     "t": "Use your customers' words",
+     "d": "“Wedding catering”, not “F&B solutions”."
+    },
+    {
+     "t": "One service, one clear line",
+     "d": "“Birthday cakes, made to order.”"
+    },
+    {
+     "t": "Add the area you serve",
+     "d": "People often type the area name too."
+    },
+    {
+     "t": "Put a real photo next to each",
+     "d": "Your own work, not stock photos."
+    }
+   ],
+   "note": "Save this for when you write yours."
+  },
+  {
+   "file": "post-wed",
+   "format": "post",
+   "layout": "list",
+   "marker": "number",
+   "tag": "Common question",
+   "title": "“We had a website. *Nothing happened.*”",
+   "items": [
+    {
+     "t": "That's real. Many sites don't work",
+     "d": "It's not a reason to give up on one."
+    },
+    {
+     "t": "It's usually one of three things",
+     "d": "Slow on the phone, no WhatsApp button, old info."
+    },
+    {
+     "t": "Check your old site today",
+     "d": "Open it on your phone: speed, button, latest info."
+    }
+   ],
+   "note": "Ek baar check karke dekho."
+  },
+  {
+   "file": "post-fri",
+   "format": "post",
+   "layout": "hero",
+   "visual": "browser",
+   "mock": "Interiors for homes and offices",
+   "tag": "Sample design",
+   "title": "A homepage for an *interior designer*",
+   "sub": "Project photos, services and a WhatsApp button on the first screen."
+  },
+  {
+   "file": "story-mon",
+   "format": "story",
+   "layout": "qa",
+   "tag": "FAQ",
+   "title": "Quick *answers*",
+   "items": [
+    {
+     "q": "What do you need from me?",
+     "a": "A 15-minute call and a short checklist."
+    },
+    {
+     "q": "Can I change photos later?",
+     "a": "Yes, from a simple admin."
+    },
+    {
+     "q": "Only in Hyderabad?",
+     "a": "Based there. We work online across India."
+    }
+   ]
+  },
+  {
+   "file": "story-tue",
+   "format": "story",
+   "layout": "hero",
+   "tag": "Quick poll",
+   "title": "How do customers *reach you* first?",
+   "sub": "Call or WhatsApp?",
+   "sticker": "poll sticker here"
+  },
+  {
+   "file": "story-wed",
+   "format": "story",
+   "layout": "list",
+   "marker": "arrow",
+   "tag": "Quick tip",
+   "title": "3 checks for your *WhatsApp button*",
+   "items": [
+    {
+     "t": "It opens your right number"
+    },
+    {
+     "t": "It sits on the first screen"
+    },
+    {
+     "t": "It starts with a ready message"
+    }
+   ]
+  },
+  {
+   "file": "story-thu",
+   "format": "story",
+   "layout": "hero",
+   "visual": "browser",
+   "mock": "Rates, photos and contact in one place",
+   "tag": "Free homepage demo, before any payment",
+   "title": "Like it first. *Then decide.*",
+   "cta": "WhatsApp us: DEMO →"
+  }
+ ]
+}
